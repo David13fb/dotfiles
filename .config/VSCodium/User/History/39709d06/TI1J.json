@@ -1,0 +1,247 @@
+{
+	"CombatePegar1": {
+		"dialogs": [
+					{
+				"text": "¿Importa siquiera al final? ¿Qué es la verdad frente a la percepción de los demás?",
+				"author": "npc"
+			}
+		],
+		"options": [
+			{
+				"response": " nada",
+				"next": "ECombateExito1"
+			},
+			{
+				"response": " nada2",
+				"next": "FCombate1"
+			}
+		]
+	},
+	"ECombateExito1": {
+		"dialogs": [
+			{
+				"text": "AAA.",
+				"author": "clover"
+			}
+		]
+	},
+	"FCombate1": {
+		"dialogs": [
+			{
+				"text": "Lo apuñla y falla. ",
+				"author": "clover",
+				"next": "CombatePegar1"
+			}
+		]
+	},
+	"CombateCharla1": {
+		"dialogs": [
+			{
+				"text": "¿Importa siquiera al final? ¿Qué es la verdad frente a la percepción de los demás?",
+				"author": "npc"
+			}
+		],
+		"options": [
+			{
+				"response": "No estoy de humor para rimas o preguntas filosóficas.",
+				"next": "FCombateCharla1"
+			},
+				{
+				"response": "¿Sabes que las percepciones son subjetivas, verdad?",
+				"next": "FCombateCharla1"
+			},
+			{
+				"response": "¿Por qué me debería de importar lo que otra gente piense de mi?",
+				"next": "ECombateCharlaExito1"
+			}
+		]
+	},
+	"FCombateCharla1": {
+		"dialogs": [
+			{
+				"text": "No has pensado bien la opción correcta.",
+				"author": "clover",
+				"next": "CombateCharla1"
+			}
+		]
+	},"ECombateCharlaExito1": {
+		"dialogs": [
+			{
+				"text": "Lo convences.",
+				"author": "clover"
+			}
+		]
+	},
+	
+"CombatePegar2": {
+	"dialogs": [
+			{
+				"text": "Da lo mismo.",
+				"author": "clover"
+			},
+			{
+				"text": "Un lazo, una falda, tu pelo; es todo lo que necesitan.",
+				"author": "clover"
+			},
+			{
+				"text": "Al final del día, verán solo lo que sus ojos les digan.",
+				"author": "clover"
+			}
+		],
+		"options": [
+			{
+				"response": " nada",
+				"next": "ECombateExito2"
+			},
+			{
+				"response": " nada2",
+				"next": "FCombate2"
+			}
+		]
+	},
+	"ECombateExito2": {
+		"dialogs": [
+			{
+				"text": "AAA",
+				"author": "clover"
+			}
+		]
+	},
+	"FCombate2": {
+		"dialogs": [
+			{
+				"text": "Lo apuñla y falla.",
+				"author": "clover",
+				"next": "CombatePegar2"
+			}
+		]
+	},
+	"CombateCharla2": {
+		"dialogs": [
+			{
+				"text": "¿Y no estás cansado? Todo el mundo esperando algo, que incluso si pudieses no querrías tanto.",
+				"author": "npc"
+			}
+		],
+		"options": [
+			{
+				"response": "Honestamente, estoy agotado.",
+				"next": "FCombateCharla2"
+			},
+				{
+				"response": "Eres muy pesada, ¿lo sabias?",
+				"next": "FCombateCharla2"
+			},
+			{
+				"response": "Tan cansado, que he aprendido a ignorarlos.",
+				"next": "ECombateCharlaExito2"
+			}
+		]
+	},
+	"FCombateCharla2": {
+		"dialogs": [
+			{
+				"text": "No has pensado bien la opción correcta.",
+				"author": "clover",
+				"next": "CombateCharla1"
+			}
+		]
+	},"ECombateCharlaExito2": {
+		"dialogs": [
+			{
+				"text": "Lo convences.",
+				"author": "clover"
+			}
+		]
+	},
+	"CombatePegar3": {
+		"dialogs": [
+			{
+				"text": "¿Y ahora quieres quitarte algo a ti mismo?",
+				"author": "clover"
+			},
+			{
+				"text": "Si esa es tu decisión final, simplemente vuelve a hacer algo parecido.",
+				"author": "clover"
+			}
+		],
+		"options": [
+			{
+				"response": " nada",
+				"next": "ECombateExito3"
+			},
+			{
+				"response": " nada2",
+				"next": "FCombate3"
+			}
+		]
+	},
+	"ECombateExito3": {
+		"dialogs": [
+			{
+				"text": "Es un deseo bonito.",
+				"author": "clover"
+			},
+			{
+				"text": "Solo desearía no tener que destruir partes de mi para conseguirlo.",
+				"author": "clover"
+			}
+		]
+	},
+	"FCombate3": {
+		"dialogs": [
+			{
+				"text": "Lo apuñla y falla.",
+				"author": "clover",
+				"next": "CombatePegar3"
+			}
+		]
+	},
+	"CombateCharla3": {
+		"dialogs": [
+			{
+				"text": "La gente te trata según te perciba.",
+				"author": "npc"
+			},
+				{
+				"text": "¿Cómo no te importaria?",
+				"author": "npc"
+			}
+		],
+		"options": [
+				{
+				"response": "Al final del día, sigo siendo yo misma.",
+				"next": "ECombateCharlaExito3"
+			},
+			{
+				"response": "Alguien tendría que enseñarte a preocuparte solo sobre ti.",
+				"next": "FCombateCharla3"
+			},
+				{
+				"response": "¿No es mejor seguir tu día y ya?",
+				"next": "FCombateCharla3"
+			}
+		
+		]
+	},
+	"FCombateCharla3": {
+		"dialogs": [
+			{
+				"text": "No has pensado bien la opción correcta",
+				"author": "clover",
+				"next": "CombateCharla1"
+			}
+		]
+	},"ECombateCharlaExito3": {
+		"dialogs": [
+			{
+				"text": "Es una forma de vivir hermosa.",
+				"author": "clover"
+			},
+				{
+				"text": "Si tan solo eso hiciese que la mirada de otro dejase de ser tan dolorosa.",
+				"author": "clover"
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+2025-12-28 09:38:36.352 [info] update#setState disabled
+2025-12-28 09:38:36.354 [info] update#ctor - updates are disabled as there is no update URL
+2025-12-28 11:03:37.855 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)
+2025-12-28 11:03:37.868 [info] Extension host with pid 9774 exited with code: 0, signal: unknown.
+2025-12-28 11:04:13.221 [error] CodeWindow: detected unresponsive
+2025-12-28 11:04:16.037 [info] Extension host with pid 26154 exited with code: 0, signal: unknown.
+2025-12-28 11:04:23.273 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)
+2025-12-28 11:04:23.279 [info] Extension host with pid 26376 exited with code: 0, signal: unknown.
+2025-12-28 11:04:37.076 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 9789]: crashed with code 139 and reason 'crashed'
+2025-12-28 11:07:33.640 [error] CodeWindow: detected unresponsive
+2025-12-28 11:07:38.025 [info] Extension host with pid 26617 exited with code: 0, signal: unknown.
+2025-12-28 11:48:51.318 [info] Extension host with pid 28216 exited with code: 0, signal: unknown.

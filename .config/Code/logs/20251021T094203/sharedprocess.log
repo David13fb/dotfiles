@@ -1,0 +1,6 @@
+2025-10-21 09:42:47.295 [info] Getting Manifest... go2sh.cmake-integration-vscode
+2025-10-21 09:42:47.438 [info] Installing extension: go2sh.cmake-integration-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/david/.vscode/extensions/extensions.json","path":"/home/david/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.2","date":"2025-09-24T11:21:37.073Z"}}
+2025-10-21 09:42:50.805 [info] Extension signature verification result for go2sh.cmake-integration-vscode: Success. Internal Code: 0. Executed: true. Duration: 1408ms.
+2025-10-21 09:42:50.859 [info] Extracted extension to file:///home/david/.vscode/extensions/go2sh.cmake-integration-vscode-0.7.1: go2sh.cmake-integration-vscode
+2025-10-21 09:42:50.875 [info] Renamed to /home/david/.vscode/extensions/go2sh.cmake-integration-vscode-0.7.1
+2025-10-21 09:42:50.930 [info] Extension installed successfully: go2sh.cmake-integration-vscode vscode-userdata:/home/david/.vscode/extensions/extensions.json

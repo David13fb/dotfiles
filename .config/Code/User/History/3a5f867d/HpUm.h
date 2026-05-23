@@ -1,0 +1,4 @@
+class clase{
+    public:
+    clase();   
+};

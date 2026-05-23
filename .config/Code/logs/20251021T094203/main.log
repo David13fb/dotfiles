@@ -1,0 +1,11 @@
+2025-10-21 09:42:03.377 [info] update#setState idle
+2025-10-21 09:42:33.381 [info] update#setState checking for updates
+2025-10-21 09:42:33.429 [info] update#setState available for download
+2025-10-21 10:20:12.485 [error] [UtilityProcess type: shared-process, pid: 6851]: crashed with code 15 and reason 'killed'
+2025-10-21 10:20:12.515 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2025-10-21 10:20:12.517 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 6852]: crashed with code 15 and reason 'killed'
+2025-10-21 10:20:12.525 [error] ptyHost terminated unexpectedly with code 15
+2025-10-21 10:20:12.526 [warning] [UtilityProcess type: ptyHost, pid: 7330]: unable to kill the process
+2025-10-21 10:20:12.533 [info] Extension host with pid 6871 exited with code: 15, signal: unknown.
+2025-10-21 10:20:12.533 [error] [UtilityProcess id: 1, type: extensionHost, pid: 6871]: crashed with code 15 and reason 'killed'
+2025-10-21 10:20:12.540 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

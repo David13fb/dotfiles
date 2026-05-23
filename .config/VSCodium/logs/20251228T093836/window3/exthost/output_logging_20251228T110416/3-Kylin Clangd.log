@@ -1,0 +1,65 @@
+I[11:04:17.846] clangd version 21.0.0git (https://github.com/llvm/llvm-project c6cec7bd9cef993b377903b88375e00badcbf11b)
+I[11:04:17.846] Features: linux
+I[11:04:17.846] PID: 26502
+I[11:04:17.846] Working directory: /home/david/Documentos/prueba_OS
+I[11:04:17.846] argv[0]: /home/david/.vscode-oss/extensions/kylinideteam.kylin-clangd-0.4.0-linux-x64/res/clangd/bin/clangd
+I[11:04:17.846] argv[1]: --clang-tidy=1
+I[11:04:17.846] Starting LSP over stdin/stdout
+I[11:04:17.851] <-- initialize(0)
+I[11:04:17.852] --> reply:initialize(0) 1 ms
+I[11:04:17.869] <-- initialized
+I[11:04:17.913] <-- textDocument/didOpen
+I[11:04:17.914] --> textDocument/publishDiagnostics
+I[11:04:17.914] Failed to find compilation database for /home/david/Documentos/prueba_OS/RepasoExamen/39.c
+I[11:04:17.914] ASTWorker building file /home/david/Documentos/prueba_OS/RepasoExamen/39.c version 1 with command clangd fallback
+[/home/david/Documentos/prueba_OS/RepasoExamen]
+/usr/bin/clang -resource-dir=/home/david/.vscode-oss/extensions/kylinideteam.kylin-clangd-0.4.0-linux-x64/res/clangd/lib/clang/21 -- /home/david/Documentos/prueba_OS/RepasoExamen/39.c
+I[11:04:17.915] --> textDocument/clangd.fileStatus
+I[11:04:17.925] <-- textDocument/codeAction(1)
+I[11:04:17.925] <-- textDocument/documentLink(2)
+I[11:04:17.925] <-- textDocument/inlayHint(3)
+I[11:04:17.925] <-- $/setTrace
+I[11:04:17.925] unhandled notification $/setTrace
+I[11:04:17.945] Built preamble of size 756336 for file /home/david/Documentos/prueba_OS/RepasoExamen/39.c version 1 in 0.03 seconds
+I[11:04:17.945] --> workspace/semanticTokens/refresh(0)
+I[11:04:17.945] Indexing c17 standard library in the context of /home/david/Documentos/prueba_OS/RepasoExamen/39.c
+I[11:04:17.952] --> textDocument/publishDiagnostics
+I[11:04:17.952] --> textDocument/inactiveRegions
+I[11:04:17.952] --> reply:textDocument/codeAction(1) 27 ms
+I[11:04:17.953] --> reply:textDocument/documentLink(2) 27 ms
+I[11:04:17.953] --> reply:textDocument/inlayHint(3) 27 ms
+I[11:04:17.953] --> textDocument/clangd.fileStatus
+I[11:04:17.963] <-- reply(0)
+I[11:04:17.963] <-- $/cancelRequest
+I[11:04:17.965] <-- $/cancelRequest
+I[11:04:17.965] <-- textDocument/codeAction(4)
+I[11:04:17.965] --> reply:textDocument/codeAction(4) 0 ms
+I[11:04:17.965] --> textDocument/clangd.fileStatus
+I[11:04:17.984] <-- textDocument/documentLink(5)
+I[11:04:17.984] --> reply:textDocument/documentLink(5) 0 ms
+I[11:04:17.984] --> textDocument/clangd.fileStatus
+I[11:04:17.993] Indexed c17 standard library: 2884 symbols, 11 filtered
+I[11:04:18.085] <-- textDocument/foldingRange(6)
+I[11:04:18.085] --> reply:textDocument/foldingRange(6) 0 ms
+I[11:04:18.179] <-- textDocument/documentSymbol(7)
+I[11:04:18.179] --> reply:textDocument/documentSymbol(7) 0 ms
+I[11:04:18.179] --> textDocument/clangd.fileStatus
+I[11:04:18.440] <-- $/setTrace
+I[11:04:18.440] unhandled notification $/setTrace
+I[11:04:19.300] <-- $/setTrace
+I[11:04:19.301] unhandled notification $/setTrace
+I[11:04:19.327] <-- textDocument/codeAction(8)
+I[11:04:19.328] --> reply:textDocument/codeAction(8) 0 ms
+I[11:04:19.328] --> textDocument/clangd.fileStatus
+I[11:04:19.329] <-- textDocument/documentLink(9)
+I[11:04:19.330] --> reply:textDocument/documentLink(9) 0 ms
+I[11:04:19.330] --> textDocument/clangd.fileStatus
+I[11:04:19.342] <-- textDocument/inlayHint(10)
+I[11:04:19.343] --> reply:textDocument/inlayHint(10) 0 ms
+I[11:04:19.343] --> textDocument/clangd.fileStatus
+I[11:04:19.374] <-- textDocument/documentSymbol(11)
+I[11:04:19.374] --> reply:textDocument/documentSymbol(11) 0 ms
+I[11:04:19.375] --> textDocument/clangd.fileStatus
+I[11:04:19.647] <-- textDocument/hover(12)
+I[11:04:19.647] --> reply:textDocument/hover(12) 0 ms
+I[11:04:19.647] --> textDocument/clangd.fileStatus

@@ -1,0 +1,6 @@
+2025-10-30 12:23:27.578 [info] Started local extension host with pid 9247.
+2025-10-30 12:23:27.694 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-30 12:23:27.696 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-30 12:23:28.141 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-30 12:23:28.473 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-30 12:23:30.407 [info] [perf] Render performance baseline is 48ms

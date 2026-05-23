@@ -1,0 +1,146 @@
+2025-12-26 09:16:17.954 [info] Extension host with pid 7948 started
+2025-12-26 09:16:17.954 [info] Skipping acquiring lock for /home/david/.config/VSCodium/User/workspaceStorage/49719b1249e86430ea5721b45d0cad83.
+2025-12-26 09:16:18.309 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-26 09:16:18.344 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-26 09:16:18.365 [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:c'
+2025-12-26 09:16:18.413 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:c', root cause: franneck94.c-cpp-runner
+2025-12-26 09:16:18.433 [info] ExtensionService#_doActivateExtension KylinIdeTeam.cppdebug, startup: false, activationEvent: 'onLanguage:c'
+2025-12-26 09:16:18.445 [info] ExtensionService#_doActivateExtension KylinIdeTeam.kylin-clangd, startup: false, activationEvent: 'onLanguage:c'
+2025-12-26 09:16:18.593 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:c'
+2025-12-26 09:16:18.601 [info] ExtensionService#_doActivateExtension KylinIdeTeam.kylin-cmake-tools, startup: false, activationEvent: 'api', root cause: KylinIdeTeam.kylin-clangd
+2025-12-26 09:16:18.828 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-26 09:16:19.192 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-26 09:16:19.274 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-26 09:16:19.381 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-26 09:16:19.536 [info] Eager extensions activated
+2025-12-26 09:16:19.538 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-26 09:16:19.540 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-26 09:16:19.561 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2025-12-26 09:16:19.564 [info] ExtensionService#_doActivateExtension jayceeliu.gcc, startup: false, activationEvent: 'onStartupFinished'
+2025-12-26 09:16:19.573 [error] Activating extension jayceeliu.gcc failed due to an error:
+2025-12-26 09:16:19.573 [error] Error: Cannot find module 'minimatch'
+Require stack:
+- /home/david/.vscode-oss/extensions/jayceeliu.gcc-0.0.1-universal/out/utils/fileUtils.js
+- /home/david/.vscode-oss/extensions/jayceeliu.gcc-0.0.1-universal/out/extension.js
+- /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16249)
+	at t._resolveFilename (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:29037)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1037:22)
+	at Module._load (node:internal/modules/cjs/loader:1199:37)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6573)
+	at t._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:28755)
+	at r._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:24901)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/david/.vscode-oss/extensions/jayceeliu.gcc-0.0.1-universal/out/utils/fileUtils.js:6:19)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6573)
+	at t._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:28755)
+	at r._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:24901)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/david/.vscode-oss/extensions/jayceeliu.gcc-0.0.1-universal/out/extension.js:8:21)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6573)
+	at t._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:28755)
+	at r._load (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:24901)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at xX._doLoadModule (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:251:1632)
+2025-12-26 10:24:26.040 [error] ExtensionError: Error in extension cschlosser.doxdocgen: FAILED to handle event
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:210:119895)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D._deliverQueue (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3028)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3364)
+	at NQ.$acceptModelChanged (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:130251)
+	at JA._doInvokeHandler (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:134124)
+	at JA._invokeHandler (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:133868)
+	at JA._receiveRequest (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:132634)
+	at JA._receiveOneMessage (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:131460)
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:129559)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+	at Wo.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10937)
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:9287)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+	at Wo.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10937)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:7498)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-12-26 10:34:07.354 [error] [KylinIdeTeam.kylin-clangd] provider FAILED
+2025-12-26 10:34:07.355 [error] {"_isCancelled":true,"_emitter":null}
+2025-12-26 10:34:07.355 [error] [KylinIdeTeam.kylin-clangd] provider FAILED
+2025-12-26 10:34:07.355 [error] {"_isCancelled":true,"_emitter":null}
+2025-12-26 10:34:07.355 [error] [KylinIdeTeam.kylin-clangd] provider FAILED
+2025-12-26 10:34:07.355 [error] {"_isCancelled":true,"_emitter":null}
+2025-12-26 10:34:07.355 [error] [KylinIdeTeam.kylin-clangd] provider FAILED
+2025-12-26 10:34:07.355 [error] {"_isCancelled":false,"_emitter":{"_size":1,"_deliveryQueue":{"i":-1,"end":0},"_listeners":[{"id":15840}]}}
+2025-12-26 10:43:06.850 [error] ExtensionError: Error in extension cschlosser.doxdocgen: FAILED to handle event
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:210:119895)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D._deliverQueue (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3028)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3364)
+	at NQ.$acceptModelChanged (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:130251)
+	at JA._doInvokeHandler (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:134124)
+	at JA._invokeHandler (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:133868)
+	at JA._receiveRequest (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:132634)
+	at JA._receiveOneMessage (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:131460)
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:129559)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+	at Wo.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10937)
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:9287)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+	at Wo.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10937)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:7498)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-12-26 10:48:42.963 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-12-26 11:03:01.584 [error] ExtensionError: Error in extension cschlosser.doxdocgen: FAILED to handle event
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:210:119895)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D._deliverQueue (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3028)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3364)
+	at NQ.$acceptModelChanged (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:130251)
+	at JA._doInvokeHandler (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:134124)
+	at JA._invokeHandler (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:133868)
+	at JA._receiveRequest (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:132634)
+	at JA._receiveOneMessage (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:131460)
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:129559)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+	at Wo.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10937)
+	at Bh.value (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:9287)
+	at D._deliver (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+	at D.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+	at Wo.fire (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10937)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:7498)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-12-26 11:23:29.634 [error] [KylinIdeTeam.kylin-clangd] provider FAILED
+2025-12-26 11:23:29.634 [error] {"_isCancelled":true,"_emitter":null}
+2025-12-26 12:53:36.893 [error] [KylinIdeTeam.kylin-clangd] provider FAILED
+2025-12-26 12:53:36.894 [error] {"_isCancelled":true,"_emitter":null}
+2025-12-26 12:56:46.388 [error] [KylinIdeTeam.kylin-clangd] provider FAILED
+2025-12-26 12:56:46.388 [error] {"_isCancelled":true,"_emitter":null}
+2025-12-26 13:54:50.544 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-26 13:54:50.556 [info] Extension host with pid 7948 exiting with code 0

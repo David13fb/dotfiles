@@ -1,0 +1,7 @@
+2025-10-19 11:07:30.543 [info] Getting Manifest... ms-vscode.cpptools
+2025-10-19 11:07:30.597 [info] Installing extension: ms-vscode.cpptools {"productVersion":{"version":"1.104.2","date":"2025-09-24T11:21:37.073Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/david/.vscode/extensions/extensions.json","path":"/home/david/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-19 11:07:35.460 [info] Extension signature verification result for ms-vscode.cpptools: Success. Internal Code: 0. Executed: true. Duration: 656ms.
+2025-10-19 11:07:36.725 [info] Extracted extension to file:///home/david/.vscode/extensions/ms-vscode.cpptools-1.28.3-linux-x64: ms-vscode.cpptools
+2025-10-19 11:07:36.751 [info] Renamed to /home/david/.vscode/extensions/ms-vscode.cpptools-1.28.3-linux-x64
+2025-10-19 11:07:36.770 [info] Marked extension as removed ms-vscode.cpptools-1.27.7-linux-x64
+2025-10-19 11:07:36.774 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/david/.vscode/extensions/extensions.json

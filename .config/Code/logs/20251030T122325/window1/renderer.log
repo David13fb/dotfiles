@@ -1,0 +1,43 @@
+2025-10-30 12:23:28.016 [info] Started local extension host with pid 9294.
+2025-10-30 12:23:28.200 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-30 12:23:28.202 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-30 12:23:29.791 [error] [Extension Host] (node:9294) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-30 12:23:31.565 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-30 12:23:31.674 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-30 12:23:32.697 [info] [perf] Render performance baseline is 58ms
+2025-10-30 12:23:36.414 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-30 12:23:36.645 [info] Started local extension host with pid 9576.
+2025-10-30 12:23:37.664 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-30 12:23:37.740 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-30 12:23:39.220 [info] [perf] Render performance baseline is 39ms
+2025-10-30 12:23:39.824 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-30 12:23:39.825 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-30 12:24:41.448 [error] [Extension Host] (node:9576) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-30 12:28:33.744 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:28:35.575 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:28:41.320 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:28:41.669 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:14.541 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:16.335 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:18.000 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:18.297 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:27.463 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:36.736 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:37.192 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:33:44.675 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:34:03.760 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:34:54.927 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:35:00.642 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:35:00.988 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:35:06.641 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:35:10.617 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:02.103 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:03.472 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:08.940 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:09.366 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:14.221 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:14.479 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:14.696 [warning] [LM] No provider registered for vendor copilot
+2025-10-30 12:36:53.777 [warning] [LM] No provider registered for vendor copilot

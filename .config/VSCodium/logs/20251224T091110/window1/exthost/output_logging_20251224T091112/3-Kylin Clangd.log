@@ -1,0 +1,64 @@
+I[09:11:17.283] clangd version 21.0.0git (https://github.com/llvm/llvm-project c6cec7bd9cef993b377903b88375e00badcbf11b)
+I[09:11:17.284] Features: linux
+I[09:11:17.284] PID: 10184
+I[09:11:17.284] Working directory: /home/david/Documentos/marp
+I[09:11:17.284] argv[0]: /home/david/.vscode-oss/extensions/kylinideteam.kylin-clangd-0.4.0-linux-x64/res/clangd/bin/clangd
+I[09:11:17.284] argv[1]: --clang-tidy=1
+I[09:11:17.284] Starting LSP over stdin/stdout
+I[09:11:17.294] <-- initialize(0)
+I[09:11:17.297] --> reply:initialize(0) 3 ms
+I[09:11:17.332] <-- initialized
+I[09:11:17.350] <-- textDocument/didOpen
+I[09:11:17.353] --> textDocument/publishDiagnostics
+I[09:11:17.357] Loaded compilation database from /home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux/compile_commands.json
+I[09:11:17.357] --> window/workDoneProgress/create(0)
+I[09:11:17.357] ASTWorker building file /home/david/Documentos/marp/main.cpp version 1 with command 
+[/home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux]
+/usr/bin/g++ --driver-mode=g++ -g -o CMakeFiles/marp.dir/main.cpp.o -c -resource-dir=/home/david/.vscode-oss/extensions/kylinideteam.kylin-clangd-0.4.0-linux-x64/res/clangd/lib/clang/21 -- /home/david/Documentos/marp/main.cpp
+I[09:11:17.357] Enqueueing 1 commands for indexing
+I[09:11:17.361] <-- reply(0)
+I[09:11:17.361] --> $/progress
+I[09:11:17.362] --> textDocument/clangd.fileStatus
+I[09:11:17.362] --> $/progress
+I[09:11:17.429] <-- textDocument/codeAction(1)
+I[09:11:17.465] <-- textDocument/documentLink(2)
+I[09:11:17.467] <-- textDocument/inlayHint(3)
+I[09:11:17.516] --> $/progress
+I[09:11:17.516] --> $/progress
+I[09:11:17.516] --> $/progress
+I[09:11:17.543] <-- $/setTrace
+I[09:11:17.543] unhandled notification $/setTrace
+I[09:11:17.682] <-- textDocument/foldingRange(4)
+I[09:11:17.683] --> reply:textDocument/foldingRange(4) 1 ms
+I[09:11:17.730] <-- textDocument/documentSymbol(5)
+I[09:11:17.893] <-- $/cancelRequest
+I[09:11:17.894] <-- $/cancelRequest
+I[09:11:17.895] <-- textDocument/codeAction(6)
+I[09:11:17.909] <-- textDocument/documentLink(7)
+I[09:11:18.009] <-- $/cancelRequest
+I[09:11:18.024] <-- textDocument/inlayHint(8)
+I[09:11:18.121] <-- textDocument/documentSymbol(9)
+I[09:11:18.370] Built preamble of size 5974888 for file /home/david/Documentos/marp/main.cpp version 1 in 1.01 seconds
+I[09:11:18.370] --> workspace/semanticTokens/refresh(1)
+I[09:11:18.370] Indexing c++17 standard library in the context of /home/david/Documentos/marp/main.cpp
+I[09:11:18.373] <-- reply(1)
+I[09:11:18.410] --> textDocument/publishDiagnostics
+I[09:11:18.410] --> textDocument/inactiveRegions
+I[09:11:18.411] --> reply:textDocument/codeAction(1) 981 ms, error: Task was cancelled.
+I[09:11:18.411] --> reply:textDocument/documentLink(2) 946 ms, error: Task was cancelled.
+I[09:11:18.411] --> reply:textDocument/inlayHint(3) 943 ms, error: Task was cancelled.
+I[09:11:18.411] --> reply:textDocument/documentSymbol(5) 680 ms
+I[09:11:18.411] --> reply:textDocument/codeAction(6) 516 ms
+I[09:11:18.411] --> reply:textDocument/documentLink(7) 502 ms
+I[09:11:18.411] --> reply:textDocument/inlayHint(8) 387 ms
+I[09:11:18.411] --> reply:textDocument/documentSymbol(9) 290 ms
+I[09:11:18.412] --> textDocument/clangd.fileStatus
+[Error - 9:11:18] Request textDocument/codeAction failed.
+[object Object]
+[Error - 9:11:18] Request textDocument/documentLink failed.
+[object Object]
+[Error - 9:11:18] Request textDocument/inlayHint failed.
+[object Object]
+I[09:11:18.611] Indexed /home/david/Documentos/marp/main.cpp (2137 symbols, 22222 refs, 248 files)
+I[09:11:18.736] --> $/progress
+I[09:11:20.609] Indexed c++17 standard library (incomplete due to errors): 14340 symbols, 1906 filtered

@@ -1,0 +1,3 @@
+2025-10-29 20:41:45.228 [error] #1: https://code.visualstudio.com/raw/v1_105.md - error undefined Failed to fetch
+2025-10-29 20:41:45.253 [error] #2: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-29 20:47:01.143 [error] #12: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch

@@ -1,0 +1,51 @@
+window {
+margin: 0px;
+border: 1px solid @outline_variant;
+background-color: @on_background;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: @outline;
+background-color: @on_primary_container;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: @on_secondary_container;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: @on_secondary_container;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: @outline;
+} 
+
+#entry.activatable #text {
+color: @on_primary_fixed;
+}
+
+#entry > * {
+color: @outline;
+}
+
+#entry:selected {
+background-color: @on_secondary_fixed;
+}
+
+#entry:selected #text {
+font-weight: bold;
+}

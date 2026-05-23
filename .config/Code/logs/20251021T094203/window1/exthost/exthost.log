@@ -1,0 +1,135 @@
+2025-10-21 09:42:05.724 [info] Extension host with pid 6871 started
+2025-10-21 09:42:05.724 [info] Skipping acquiring lock for /home/david/.config/Code/User/workspaceStorage/8c233236dac4f032fe0009f15216766b.
+2025-10-21 09:42:05.903 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-21 09:42:05.957 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-21 09:42:06.084 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-10-21 09:42:06.096 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-21 09:42:06.234 [info] Eager extensions activated
+2025-10-21 09:42:06.277 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 09:42:06.281 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 09:42:08.571 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-10-21 09:43:36.715 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'onCommand:cmake.quickStart'
+2025-10-21 09:43:59.758 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2025-10-21 09:44:12.924 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-21 09:44:12.936 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-10-21 09:44:12.957 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-10-21 09:44:13.065 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-10-21 09:44:13.464 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'api', root cause: ms-vscode.cmake-tools
+2025-10-21 09:44:33.450 [info] ExtensionService#_doActivateExtension danielpinto8zz6.c-cpp-compile-run, startup: false, activationEvent: 'onCommand:extension.CompileRun'
+2025-10-21 09:44:34.786 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-21 09:56:02.041 [error] [ms-vscode.cmake-tools] provider FAILED
+2025-10-21 09:56:02.041 [error] TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 09:56:02.394 [error] [ms-vscode.cmake-tools] provider FAILED
+2025-10-21 09:56:02.394 [error] TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 09:56:07.471 [error] [ms-vscode.cmake-tools] provider FAILED
+2025-10-21 09:56:07.471 [error] TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 09:56:08.415 [error] [ms-vscode.cmake-tools] provider FAILED
+2025-10-21 09:56:08.415 [error] TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 09:56:08.854 [error] [ms-vscode.cmake-tools] provider FAILED
+2025-10-21 09:56:08.854 [error] TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 10:10:17.076 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-10-21 10:12:24.378 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-10-21 10:12:24.398 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2025-10-21 10:12:24.402 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2025-10-21 10:12:24.405 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2025-10-21 10:12:24.409 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onTaskType:typescript'

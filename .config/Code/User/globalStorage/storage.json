@@ -1,0 +1,93 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ee8d1d9284f1f7ba8a3c7950b6e2ac2598755ca04c8fa3fcdc688dc2ed10b923",
+    "telemetry.devDeviceId": "442c26f1-fe8f-4edf-916d-b42611b9f884",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/david/Documentos/prueba_OS"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/david/Documentos/proyectos%20visual/helloworld": "__default__profile__",
+            "file:///home/david/Documentos/proyectos%20visual/prueba": "__default__profile__",
+            "file:///home/david/Documentos/marp": "__default__profile__",
+            "file:///home/david/Documentos/prueba_OS": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 298,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/david/Documentos/prueba_OS",
+            "backupPath": "/home/david/.config/Code/Backups/300a2bc13c7753c81990bc8eba2fa2d0",
+            "uiState": {
+                "mode": 0,
+                "x": 46,
+                "y": 0,
+                "width": 1874,
+                "height": 1080,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 298,
+            "auxiliaryBarWidth": 298,
+            "workspaces": {
+                "d9c13f13ce5e31b91cf7766d7706dd7b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "493a359a044205a0dabb9a566150c574": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8c233236dac4f032fe0009f15216766b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "49719b1249e86430ea5721b45d0cad83": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

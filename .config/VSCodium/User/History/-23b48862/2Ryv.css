@@ -1,0 +1,30 @@
+/* Generado con Matugen */
+@define-color accent_color #96cdf8;
+@define-color accent_fg_color #001e30;
+@define-color accent_bg_color #96cdf8;
+@define-color window_bg_color #101417;
+@define-color window_fg_color #e0e3e8;
+@define-color headerbar_bg_color #101417;
+@define-color headerbar_fg_color #e0e3e8;
+@define-color sidebar_bg_color #101417;
+@define-color sidebar_fg_color #e0e3e8;
+@define-color theme_bg_color #101417;
+@define-color theme_fg_color #e0e3e8;
+@define-color theme_base_color #101417;
+@define-color theme_text_color #e0e3e8;
+@define-color theme_selected_bg_color #96cdf8;
+@define-color theme_selected_fg_color #001e30;
+/* Fondos principales de ventana y diálogos */
+@define-color window_bg_color #101417;
+@define-color theme_bg_color #101417;
+
+/* Fondos de áreas de contenido (listas, editores, iconos) */
+@define-color view_bg_color #101417;
+@define-color theme_base_color #101417;
+
+/* Fondos de barras de herramientas y cabeceras */
+@define-color headerbar_bg_color #101417;
+
+/* Forzado para aplicaciones que usan selectores CSS antiguos */
+@define-color bg_color #101417;
+@define-color base_color #101417;

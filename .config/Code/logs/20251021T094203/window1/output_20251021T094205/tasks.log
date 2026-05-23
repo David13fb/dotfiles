@@ -1,0 +1,200 @@
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Activating task providers all
+Activating task providers cppbuild
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/cpps/clase.cpp,-o,/home/david/Documentos/marp/cpps/output/clase,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}
+Error: the task 'C/C++ Compile Run: C/C++ Compile Run: Compile' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,g++,-Wall,-Wextra,-g3,/home/david/Documentos/marp/main.cpp,-o,/home/david/Documentos/marp/output/main,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C/C++ Compile Run: C/C++ Compile Run: Compile"
+}

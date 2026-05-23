@@ -1,0 +1,73 @@
+Starting OmniSharp server at 29/12/2025, 10:09:41
+    Target: /home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/WhenTheSpringsEnds.sln
+
+OmniSharp server started with .NET 10.0.101
+.
+    Path: /home/david/.vscode-oss/extensions/muhammad-sammy.csharp-2.110.4-universal/.omnisharp/1.39.14-net6.0/OmniSharp.dll
+    PID: 10590
+
+[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on Unknown 0.0 (Unknown)
+[info]: OmniSharp.Services.DotNetCliService
+        Checking the 'DOTNET_ROOT' environment variable to find a .NET SDK
+[info]: OmniSharp.Services.DotNetCliService
+        DotNetPath set to /usr/lib64/dotnet/dotnet
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 1 MSBuild instance(s)
+            1: .NET Core SDK 10.0.101 18.0.6 - "/usr/lib64/dotnet/sdk/10.0.101"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: .NET Core SDK 10.0.101 18.0.6 - "/usr/lib64/dotnet/sdk/10.0.101"
+[info]: OmniSharp.WorkspaceInitializer
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpFormattingWorkspaceOptionsProvider, Order: 0
+[info]: OmniSharp.WorkspaceInitializer
+        Updating the solution's fallback AnalyzerConfigOptions.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Did not find any Cake files
+[info]: OmniSharp.MSBuild.ProjectSystem
+        Detecting projects in '/home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/WhenTheSpringsEnds.sln'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/WhenTheSpringsEnds.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Did not find any CSX files
+[info]: OmniSharp.WorkspaceInitializer
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/' on host 10278.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/WhenTheSpringsEnds.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Successfully loaded project file '/home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/WhenTheSpringsEnds.csproj'.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds/WhenTheSpringsEnds.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: WhenTheSpringsEnds
+[info]: OmniSharp.Roslyn.CSharp.Services.Diagnostics.CSharpDiagnosticWorkerWithAnalyzers
+        Solution initialized -> queue all documents for code analysis. Initial document count: 6.
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.CSharp.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.CSharp.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.CSharp.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.CSharp.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.CSharp.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.CSharp.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.NetAnalyzers': 
+[fail]: OmniSharp.MSBuild.ProjectManager
+        Failure while loading the analyzer reference 'Microsoft.CodeAnalysis.NetAnalyzers': 

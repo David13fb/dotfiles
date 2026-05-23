@@ -1,0 +1,11 @@
+file:///home/david/Documentos/lag/CharlasConJamon2026/TallerUnity/Proyecto/Assets/SceneChanger.cs {"mtime":1769611201081,"ctime":1770578650909,"size":199,"etag":"3fh0gkk0a6d","orphaned":false,"typeId":""}
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneChanger : MonoBehaviour
+{
+    public void ChangeScene(string sceneName) {
+        SceneManager.LoadScene(sceneName);
+    }
+
+}

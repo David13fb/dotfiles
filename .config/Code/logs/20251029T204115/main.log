@@ -1,0 +1,14 @@
+2025-10-29 20:41:15.359 [info] update#setState idle
+2025-10-29 20:41:25.366 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084 - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:41:25.368 [error] update#isLatestVersion(): failed to check for updates
+2025-10-29 20:41:25.369 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-10-29 20:41:45.364 [info] update#setState checking for updates
+2025-10-29 20:42:09.290 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/7d842fb85a0275a4a8e4d7e040d2625abbf7f084?bg=true - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:42:09.291 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123921)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2025-10-29 20:42:09.291 [info] update#setState idle
+2025-10-29 20:50:30.467 [info] Extension host with pid 4698 exited with code: 0, signal: unknown.
+2025-10-29 20:50:30.559 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 4671]: crashed with code 15 and reason 'killed'

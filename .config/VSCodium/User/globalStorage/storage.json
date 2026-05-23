@@ -1,0 +1,189 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d3f7729ddc5ff2e43dffa25955399cf042b337fcd10602fa9a28245a7b9021df",
+    "telemetry.devDeviceId": "442c26f1-fe8f-4edf-916d-b42611b9f884",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/david/Documentos/lag/prueba/Assets/PruebaDeCositas"
+            },
+            {
+                "folderUri": "file:///home/david/Documentos/lag/CharlasConJamon2026/TallerUnity/Proyecto"
+            },
+            {
+                "folderUri": "file:///home/david/Documentos/GitHub/PICATE/picate"
+            },
+            {
+                "folderUri": "file:///home/david/Documentos/Git/IAV26-G13-P3/FPS/Assets/FPS/Scripts/Gameplay/Managers"
+            },
+            {
+                "folderUri": "file:///home/david/Documentos/Git/IAV26-BenitoAller-FernandezBarrios/unity-metroidvania"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/david/Documentos/prueba_OS": "__default__profile__",
+            "file:///home/david/Documentos/cmake": "__default__profile__",
+            "file:///home/david/Documentos/Git/POLBO-XIGANTE": "__default__profile__",
+            "file:///home/david/Documentos/marp": "__default__profile__",
+            "file:///home/david/Documentos/Git/EstoyLocoyotrascosas/WhenTheSpringEnds": "__default__profile__",
+            "file:///home/david/Documentos/lag/prueba/Assets/PruebaDeCositas": "__default__profile__",
+            "file:///home/david/Documentos/lag/prueba": "__default__profile__",
+            "file:///home/david/Documentos/lag/My%20project": "__default__profile__",
+            "file:///home/david/Documentos/GitHub/IAV26-G13-P1": "__default__profile__",
+            "file:///home/david/Documentos/GitHub/Global26/masks-train": "__default__profile__",
+            "file:///home/david/Descargas": "__default__profile__",
+            "file:///home/david/Documentos/lag/CharlasConJamon2026/TallerUnity/Proyecto": "__default__profile__",
+            "file:///home/david/Documentos/charla-javi": "__default__profile__",
+            "file:///home/david/Documentos/GitHub/PICATE/picate": "__default__profile__",
+            "file:///home/david/Fedora-Hyprland": "__default__profile__",
+            "file:///home/david/.config/waybar": "__default__profile__",
+            "file:///home/david/Documentos/GitHub/IAV26-G13-P2": "__default__profile__",
+            "file:///home/david/Documentos/pruebamandotfg": "__default__profile__",
+            "file:///home/david/Documentos/Git/IAV26-G13-P3": "__default__profile__",
+            "file:///home/david/Documentos/Git/IAV26-G13-P3/FPS/Assets/FPS/Scripts/Gameplay/Managers": "__default__profile__",
+            "file:///home/david/Documentos/Git/IAV26-BenitoAller-FernandezBarrios/unity-metroidvania": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/david/Documentos/Git/IAV26-BenitoAller-FernandezBarrios/unity-metroidvania",
+            "backupPath": "/home/david/.config/VSCodium/Backups/13c35885dd0d4c279fcfc2078ff81964",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1273,
+                "height": 1386
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 235,
+            "workspaces": {
+                "262b32b307c13a5524eae6cd40c7cda6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "529417f9b1f61126400d8dbd79ef5047": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8c233236dac4f032fe0009f15216766b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "49719b1249e86430ea5721b45d0cad83": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "75a806f302414a85b4dc47e6fcc1244d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "16e44ee58b44e473d1fda1735ac816ea": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "0a61803609c365c18a948bdecda290e7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "0c2bfaab98e0d061f4983c388614b5b8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "af5c81938c1af8cefc91a3e7f68bed94": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7bfbf1cd3b9020bb8984cf2c47d6ac79": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9613a42e30d6f3f59d2ff10a1026cd15": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "eeb1cd416353a3192833560a7a33aff4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b6387c699a42e9af56e7c82d4a7889b6": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "13a8da61c61b0c684ccad082dc269ba8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5044858829552121a1717933e61886d6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f12c7acf3dfb57bd460942900ed164a7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1cc17c68c1ea99cc6d55081f200de870": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "bc976bf822a5b127987a41bf1cf896f5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f7914f2425a607ed80013fe6ffa59311": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8fe123fd6106142ec33d6d4092425537": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ff371a39f34d0bd4e1f2e1ef063a8858": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

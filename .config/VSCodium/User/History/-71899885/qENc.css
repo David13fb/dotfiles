@@ -1,0 +1,6 @@
+@import url('/home/david/.config/gtk-4.0/colors.css');
+
+* {
+    background-color: @window_bg_color;
+    color: @window_fg_color;
+}

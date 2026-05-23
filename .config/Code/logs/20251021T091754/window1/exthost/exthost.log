@@ -1,0 +1,16 @@
+2025-10-21 09:17:56.589 [info] Extension host with pid 4730 started
+2025-10-21 09:17:56.640 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-21 09:17:56.693 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-21 09:17:56.942 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-10-21 09:17:57.021 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-21 09:17:57.183 [info] Eager extensions activated
+2025-10-21 09:17:57.194 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 09:17:57.200 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 09:18:02.247 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-10-21 09:18:02.388 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2025-10-21 09:19:17.580 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-10-21 09:19:41.843 [info] ExtensionService#_doActivateExtension danielpinto8zz6.c-cpp-compile-run, startup: false, activationEvent: 'onCommand:extension.CompileRun'
+2025-10-21 09:19:43.220 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-21 09:20:01.711 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-10-21 09:41:53.382 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-21 09:41:53.442 [info] Extension host with pid 4730 exiting with code 0

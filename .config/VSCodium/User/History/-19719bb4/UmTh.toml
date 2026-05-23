@@ -1,0 +1,23 @@
+[config]
+# ...
+[templates.hyprland]
+input_path = '~/home/david/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+# ...
+
+[config]
+# ...
+[templates.kitty]
+input_path = '~/home/david/.config/matugen/templates/kitty-colors.conf'
+output_path = '~/.config/kitty/themes/colors.conf'
+post_hook = "kitty +kitten themes --reload-in=all Matugen"
+# ...
+
+[config]
+# ...
+[templates.waybar]
+input_path = '~/home/david/.config/matugen/templates/kitty.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'
+# ...

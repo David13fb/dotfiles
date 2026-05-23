@@ -1,0 +1,51 @@
+window {
+margin: 0px;
+border: 1px solid #bd93f9;
+background-color: @on_background;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: #f8f8f2;
+background-color: @on_primary_container;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: @on_secondary_container;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: @on_secondary_container;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #f8f8f2;
+} 
+
+#entry.activatable #text {
+color: @on_primary_fixed;
+}
+
+#entry > * {
+color: #f8f8f2;
+}
+
+#entry:selected {
+background-color: @on_secondary_fixed;
+}
+
+#entry:selected #text {
+font-weight: bold;
+}

@@ -1,0 +1,24 @@
+2025-10-30 12:23:29.020 [info] Extension host with pid 9294 started
+2025-10-30 12:23:29.367 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-30 12:23:29.430 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-30 12:23:29.465 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2025-10-30 12:23:30.051 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-30 12:23:30.189 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-30 12:23:30.479 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-30 12:23:30.622 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-30 12:23:31.007 [info] Eager extensions activated
+2025-10-30 12:23:31.101 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 12:23:31.106 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 12:23:35.673 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-30 12:23:35.777 [info] Extension host with pid 9294 exiting with code 0
+2025-10-30 12:23:37.570 [info] Extension host with pid 9576 started
+2025-10-30 12:23:37.570 [info] Skipping acquiring lock for /home/david/.config/Code/User/workspaceStorage/49719b1249e86430ea5721b45d0cad83.
+2025-10-30 12:23:37.627 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-30 12:23:37.680 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-30 12:23:37.870 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-10-30 12:23:37.911 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-30 12:23:38.069 [info] Eager extensions activated
+2025-10-30 12:23:38.102 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 12:23:38.108 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 12:23:40.042 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-10-30 12:24:41.084 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'

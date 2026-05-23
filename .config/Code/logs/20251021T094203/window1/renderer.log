@@ -1,0 +1,99 @@
+2025-10-21 09:42:04.437 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-21 09:42:04.701 [info] Started local extension host with pid 6871.
+2025-10-21 09:42:06.236 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-21 09:42:07.396 [info] [perf] Render performance baseline is 34ms
+2025-10-21 09:42:08.416 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-21 09:42:51.004 [warning] [go2sh.cmake-integration-vscode]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-21 09:44:13.759 [error] [Extension Host] (node:6871) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-21 09:44:25.227 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:44:26.206 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:45:55.404 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:56:02.045 [error] Cannot read properties of undefined (reading 'description'): TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 09:56:07.481 [error] Cannot read properties of undefined (reading 'description'): TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 09:56:08.856 [error] Cannot read properties of undefined (reading 'description'): TypeError: Cannot read properties of undefined (reading 'description')
+	at LanguageServiceData.provideHover (/home/david/.vscode/extensions/ms-vscode.cmake-tools-1.21.36/dist/main.js:103543:50)
+	at ZP.provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:131425)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159186
+	at Kt.G (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:156654)
+	at Kt.$provideHover (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:159174)
+	at j4.S (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120180)
+	at j4.Q (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119960)
+	at j4.M (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119011)
+	at j4.L (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118154)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116951)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at od.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:8617)
+	at $.C (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at $.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at vo.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6909)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 10:09:47.864 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:10:06.337 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:10:06.814 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:10:16.921 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:11:09.909 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:11:13.205 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:11:58.447 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:12:49.687 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:12:50.522 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:13:32.290 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:14:02.527 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:14:05.025 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:14:05.590 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:14:05.819 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:16:33.450 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:16:53.070 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:17:19.461 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:17:33.949 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:18:13.159 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:18:13.583 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:18:34.581 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:18:34.796 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:18:35.541 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:18:49.271 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 10:19:30.142 [warning] [LM] No provider registered for vendor copilot

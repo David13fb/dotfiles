@@ -1,0 +1,30 @@
+{
+	"HomeRound1": {
+		"dialogs": [
+			{
+				"text": "*Estoy cansado y no entiendo nada.*",
+				"author": "clover",
+				"name": "Clover",
+				"portrait": "res://Assets/Finales/whiteMascPortrait.png"
+			},
+			{
+				"text": "*¿Debería irme a casa?*",
+				"author": "clover",
+				"name": "Clover",
+				"portrait": "res://Assets/Finales/whiteMascPortrait.png"
+			}
+		],
+		"options": [
+			{
+				"response": "Sí",
+				"gain": 2.0,
+				"next": "HomeRound.Success"
+			},
+			{
+				"response": "No",
+				"gain": 2.0,
+				"next": "HomeRound.Exit"
+			}
+		]
+	}
+}

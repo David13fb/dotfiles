@@ -1,0 +1,163 @@
+using System;
+using UnityEditor.Experimental.GraphView;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+
+
+
+public class IAToolWindow : GraphView
+{
+    public readonly Vector2 defaultnodeSize = new Vector2(400, 200);
+    public IAToolWindow()
+    {
+        SetupZoom(0.1f, 4.0f);
+        this.AddManipulator(new ContentDragger());
+        this.AddManipulator(new SelectionDragger());
+        this.AddManipulator(new RectangleSelector());
+        GridBackground _grid = new GridBackground();
+        Insert(index: 0, _grid);
+
+        _grid.StretchToParentSize();
+        AddElement(GenerateEntryPointNode());
+
+        var contextMenuManipulator = new ContextualMenuManipulator(evt =>
+        {
+            // Right-click menu items
+            evt.menu.AppendAction("Create IA Node", CreateNodeAtMousePosition, DropdownMenuAction.AlwaysEnabled);
+        });
+        this.AddManipulator(contextMenuManipulator);
+    }
+
+    private void CreateNodeAtMousePosition(DropdownMenuAction action)
+    {
+        graphIANode newNode = CreateGraphIANode();
+        newNode.SetPosition(new Rect(contentViewContainer.WorldToLocal(action.eventInfo.localMousePosition).x, contentViewContainer.WorldToLocal(action.eventInfo.localMousePosition).y, defaultnodeSize.x, defaultnodeSize.y));
+        // Add the new node to the GraphView
+        AddElement(newNode);
+    }
+
+
+
+    ///PRIVATE METHODS
+
+    private graphIANode GenerateEntryPointNode()
+    {
+        graphIANode node = new graphIANode
+        {
+            GUID = Guid.NewGuid().ToString(),
+            //person = "personaje",
+
+
+            EntryPoint = true
+        };
+
+        Port next = GeneratePort(node, Direction.Output);
+        node.outputContainer.Add(next);
+        node.RefreshExpandedState();
+        node.RefreshPorts();
+        node.SetPosition(new Rect(100, 200, 200, 100));
+        return node;
+    }
+    private Port GeneratePort(graphIANode node, Direction dir, Port.Capacity capacity = Port.Capacity.Single)
+    {
+        return node.InstantiatePort(Orientation.Horizontal, dir, capacity, type: typeof(float));
+    }
+
+
+    ///PUBLIC METHODS
+
+    public graphIANode CreateGraphIANode()
+    {
+        Debug.Log(i);
+        IANodeClass node = new IANodeClass
+        {
+
+            GUID = g,
+            Name = n,
+            negative = neg,
+            conditions = i,
+            behaviour = b,
+            EntryPoint = false
+        };
+
+
+        Port parent = GeneratePort(node, Direction.Input, Port.Capacity.Multi);
+        node.inputContainer.Add(parent);
+
+        Button button = new Button(clickEvent: () => { AddChoicePort(node); });
+        node.titleContainer.Add(button);
+        button.text = "New link";
+        // Crear el TextField para el nombre
+        TextField nombre = new TextField(label: "name");
+        nombre.value = n;
+        nombre.RegisterValueChangedCallback((ChangeEvent<string> evt) =>
+        {
+            node.title = evt.newValue;
+            node.Name = evt.newValue;
+            node.RefreshExpandedState();
+        });
+        // Inicializar el valor del TextField
+        nombre.SetValueWithoutNotify(node.title); // Aquí se inicializa el valor
+        node.mainContainer.Add(nombre);
+
+        Toggle _toggle = new Toggle { label = "Negative" };
+        _toggle.value = neg; // Inicializa el Toggle
+        _toggle.RegisterValueChangedCallback(evt =>
+        {
+            node.negative = evt.newValue; // Actualiza el atributo booleano
+            //outputPort.SetValue(node.negative);
+        }); // Registra el callback
+
+        // Agregar el Toggle al contenido del nodo
+        node.mainContainer.Add(_toggle);
+        node.RefreshExpandedState();
+
+
+        ObjectField con = new ObjectField()
+        {
+            objectType = typeof(IIACondition),
+            value = i,
+            label = "Selecciona un IIACondition",
+        };
+
+        con.RegisterValueChangedCallback(evt =>
+        {
+
+            node.conditions = evt.newValue as IIACondition;
+            node.RefreshExpandedState();
+            // Debug.Log("ScriptableObject agregado: " + (evt.newValue as IIACondition)?.nombre);
+        });
+        node.Add(con);
+        node.RefreshExpandedState();
+        node.RefreshPorts();
+
+        ObjectField beh = new ObjectField()
+        {
+            objectType = typeof(IIAbehaviour),
+            value = b,
+            label = "Selecciona un IABehaviour",
+        };
+
+        beh.RegisterValueChangedCallback(evt =>
+        {
+
+            node.behaviour = evt.newValue as IIAbehaviour;
+            node.RefreshExpandedState();
+            Debug.Log("ScriptableObject agregado: ");
+        });
+        node.Add(beh);
+        node.RefreshExpandedState();
+        node.RefreshPorts();
+
+
+
+        node.SetPosition(new Rect(position: Vector2.zero, defaultnodeSize));
+        return node;
+    }
+    public void CreateNode(string nodeName)
+    {
+        AddElement(CreateIANodeClass());
+    }
+
+}

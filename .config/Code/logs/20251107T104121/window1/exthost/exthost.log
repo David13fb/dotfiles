@@ -1,0 +1,58 @@
+2025-11-07 10:41:24.385 [info] Extension host with pid 5068 started
+2025-11-07 10:41:24.385 [info] Skipping acquiring lock for /home/david/.config/Code/User/workspaceStorage/49719b1249e86430ea5721b45d0cad83.
+2025-11-07 10:41:24.646 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-07 10:41:24.712 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-07 10:41:24.746 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2025-11-07 10:41:25.467 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-07 10:41:25.512 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-07 10:41:25.539 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new MR (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+	at U4.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+	at zb.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:74817)
+	at Object.resolveProxy (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:203:25819)
+	at useProxySettings (/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:145:13
+	at /usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:788:13 
+2025-11-07 10:41:25.539 [info] Eager extensions activated
+2025-11-07 10:41:25.562 [error] Activating extension vscode.debug-auto-launch failed due to an error:
+2025-11-07 10:41:25.562 [error] Canceled: Canceled
+	at new MR (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+	at U4.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+	at SZ.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12234)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9475)
+	at Gb.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13395)
+	at Gb.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13356)
+	at Gb.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12812)
+	at new Gb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12739)
+	at qb.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12301)
+	at qb.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12256)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11227
+	at Array.map (<anonymous>)
+	at qb.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11215)
+	at qb.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11127)
+	at SZ.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10701)
+	at SZ.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:15512)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:16156
+2025-11-07 10:41:25.563 [error] Activating extension vscode.merge-conflict failed due to an error:
+2025-11-07 10:41:25.563 [error] Canceled: Canceled
+	at new MR (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+	at U4.U (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+	at SZ.fb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12234)
+	at Object.actualActivateExtension (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9475)
+	at Gb.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13395)
+	at Gb.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13356)
+	at Gb.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12812)
+	at new Gb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12739)
+	at qb.k (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12301)
+	at qb.j (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12256)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11227
+	at Array.map (<anonymous>)
+	at qb.h (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11215)
+	at qb.activateById (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:11127)
+	at SZ.bb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10701)
+	at SZ.lb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:15512)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:16156
+2025-11-07 10:41:25.577 [info] Extension host with pid 5068 exiting with code 0

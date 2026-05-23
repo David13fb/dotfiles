@@ -1,0 +1,41 @@
+2025-12-29 10:09:27.573 [info] [main] Log level: Info
+2025-12-29 10:09:27.573 [info] [main] Validating found git in: "git"
+2025-12-29 10:09:27.573 [info] [main] Using git "2.52.0" from "git"
+2025-12-29 10:09:27.573 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-29 10:09:27.573 [info] > git rev-parse --show-toplevel [21ms]
+2025-12-29 10:09:27.573 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2025-12-29 10:09:27.573 [info] [Model][openRepository] Opened repository (path): /home/david/Documentos/Git/EstoyLocoyotrascosas
+2025-12-29 10:09:27.573 [info] [Model][openRepository] Opened repository (real path): /home/david/Documentos/Git/EstoyLocoyotrascosas
+2025-12-29 10:09:27.573 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-29 10:09:27.573 [info] > git rev-parse --show-toplevel [8ms]
+2025-12-29 10:09:27.573 [info] > git config --get commit.template [10ms]
+2025-12-29 10:09:27.574 [info] > git rev-parse --show-toplevel [8ms]
+2025-12-29 10:09:27.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-12-29 10:09:27.581 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-29 10:09:27.619 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-29 10:09:27.628 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-12-29 10:09:27.632 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-29 10:09:27.636 [info] > git rev-parse --show-toplevel [1ms]
+2025-12-29 10:09:27.640 [info] > git status -z -uall [18ms]
+2025-12-29 10:09:27.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-12-29 10:09:27.653 [info] > git rev-parse --show-toplevel [14ms]
+2025-12-29 10:09:27.657 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2025-12-29 10:09:27.659 [info] > git config --get commit.template [9ms]
+2025-12-29 10:09:27.659 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-29 10:09:27.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-12-29 10:09:27.669 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-12-29 10:09:27.673 [info] > git rev-parse --show-toplevel [9ms]
+2025-12-29 10:09:27.673 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-29 10:09:27.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-12-29 10:09:27.679 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 01288e1804e59a09fa1d182a8a9e22faeae7b73f...refs/remotes/origin/main -- [6ms]
+2025-12-29 10:09:27.680 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-29 10:09:27.682 [info] > git status -z -uall [6ms]
+2025-12-29 10:09:27.857 [info] > git show --textconv :WhenTheSpringEnds/Scripts/DialogueManager/InGameScripts/DialogueManager.cs [3ms]
+2025-12-29 10:09:27.858 [info] > git ls-files --stage -- WhenTheSpringEnds/Scripts/DialogueManager/InGameScripts/DialogueManager.cs [1ms]
+2025-12-29 10:09:27.861 [info] > git cat-file -s 8ee204140083ab66a14b197e39118fec44664bd9 [1ms]
+2025-12-29 10:09:27.883 [info] > git blame --root --incremental 01288e1804e59a09fa1d182a8a9e22faeae7b73f -- WhenTheSpringEnds/Scripts/DialogueManager/InGameScripts/DialogueManager.cs [2ms]
+2025-12-29 10:09:28.068 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-29 10:09:30.703 [info] > git config --get commit.template [3ms]
+2025-12-29 10:09:30.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-12-29 10:09:30.710 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-12-29 10:09:30.711 [info] > git status -z -uall [5ms]

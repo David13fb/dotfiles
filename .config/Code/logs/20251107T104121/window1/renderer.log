@@ -1,0 +1,6 @@
+2025-11-07 10:41:23.429 [info] Started local extension host with pid 5068.
+2025-11-07 10:41:23.932 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-11-07 10:41:23.933 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-11-07 10:41:25.035 [error] [Extension Host] (node:5068) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-07 10:41:25.333 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15

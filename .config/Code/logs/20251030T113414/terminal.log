@@ -1,0 +1,85 @@
+2025-10-30 11:58:51.277 [info] Latency measurements for local backend
+window<->ptyhost (message port): 18.10ms
+window<->ptyhostservice<->ptyhost: 8.00ms
+ptyhostservice<->ptyhost: 1.70ms []
+2025-10-30 12:00:27.351 [info] Latency measurements for local backend
+window<->ptyhost (message port): 2.60ms
+window<->ptyhostservice<->ptyhost: 3.70ms
+ptyhostservice<->ptyhost: 1.70ms []
+2025-10-30 12:00:36.060 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.30ms
+window<->ptyhostservice<->ptyhost: 2.60ms
+ptyhostservice<->ptyhost: 1.13ms []
+2025-10-30 12:01:52.236 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.30ms
+window<->ptyhostservice<->ptyhost: 2.00ms
+ptyhostservice<->ptyhost: 0.95ms []
+2025-10-30 12:02:14.806 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.10ms
+window<->ptyhostservice<->ptyhost: 2.40ms
+ptyhostservice<->ptyhost: 1.01ms []
+2025-10-30 12:03:29.029 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.20ms
+window<->ptyhostservice<->ptyhost: 3.20ms
+ptyhostservice<->ptyhost: 1.55ms []
+2025-10-30 12:03:58.984 [info] Latency measurements for local backend
+window<->ptyhost (message port): 4.20ms
+window<->ptyhostservice<->ptyhost: 4.40ms
+ptyhostservice<->ptyhost: 1.69ms []
+2025-10-30 12:05:38.800 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.00ms
+window<->ptyhostservice<->ptyhost: 2.40ms
+ptyhostservice<->ptyhost: 1.05ms []
+2025-10-30 12:05:46.108 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.40ms
+window<->ptyhostservice<->ptyhost: 3.10ms
+ptyhostservice<->ptyhost: 1.14ms []
+2025-10-30 12:06:08.499 [info] Latency measurements for local backend
+window<->ptyhost (message port): 3.60ms
+window<->ptyhostservice<->ptyhost: 8.10ms
+ptyhostservice<->ptyhost: 1.21ms []
+2025-10-30 12:06:16.044 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.50ms
+window<->ptyhostservice<->ptyhost: 2.70ms
+ptyhostservice<->ptyhost: 1.05ms []
+2025-10-30 12:07:09.816 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.10ms
+window<->ptyhostservice<->ptyhost: 2.30ms
+ptyhostservice<->ptyhost: 1.16ms []
+2025-10-30 12:07:16.000 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.40ms
+window<->ptyhostservice<->ptyhost: 2.90ms
+ptyhostservice<->ptyhost: 1.30ms []
+2025-10-30 12:08:28.329 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.20ms
+window<->ptyhostservice<->ptyhost: 3.30ms
+ptyhostservice<->ptyhost: 1.49ms []
+2025-10-30 12:09:36.260 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.00ms
+window<->ptyhostservice<->ptyhost: 2.30ms
+ptyhostservice<->ptyhost: 1.09ms []
+2025-10-30 12:12:53.835 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.10ms
+window<->ptyhostservice<->ptyhost: 2.00ms
+ptyhostservice<->ptyhost: 0.98ms []
+2025-10-30 12:13:51.663 [info] Latency measurements for local backend
+window<->ptyhost (message port): 0.90ms
+window<->ptyhostservice<->ptyhost: 2.40ms
+ptyhostservice<->ptyhost: 1.04ms []
+2025-10-30 12:14:34.680 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.00ms
+window<->ptyhostservice<->ptyhost: 2.40ms
+ptyhostservice<->ptyhost: 1.07ms []
+2025-10-30 12:15:48.685 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.30ms
+window<->ptyhostservice<->ptyhost: 2.60ms
+ptyhostservice<->ptyhost: 1.13ms []
+2025-10-30 12:16:48.922 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.20ms
+window<->ptyhostservice<->ptyhost: 2.80ms
+ptyhostservice<->ptyhost: 1.16ms []
+2025-10-30 12:18:30.732 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.40ms
+window<->ptyhostservice<->ptyhost: 2.40ms
+ptyhostservice<->ptyhost: 0.97ms []
+2025-10-30 12:19:38.366 [error] Exception occurred during xterm disposal [{}]

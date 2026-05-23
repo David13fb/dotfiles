@@ -1,0 +1,52 @@
+@import url("/home/david/.config/wofi/colors.css");
+window {
+margin: 0px;
+border: 1px solid @outline;
+background-color: @on_background;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: @on_primary_container;
+background-color: @on_primary;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: @on_secondary;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: @on_secondary;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: @on_primary_container;
+} 
+
+#entry.activatable #text {
+color: @on_primary_fixed;
+}
+
+#entry > * {
+color: @outline;
+}
+
+#entry:selected {
+background-color: @on_secondary_fixed;
+}
+
+#entry:selected #text {
+font-weight: bold;
+}

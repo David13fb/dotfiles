@@ -1,0 +1,26 @@
+{
+	"HomeRound1": {
+		"dialogs": [
+			{
+				"text": "Noy un texto de ejemplo que habla contigo <3",
+				"author": "clover"
+			},
+			{
+				"text": "*¿Debería irme a casa?*",
+				"author": "npc"
+			}
+		],
+		"options": [
+			{
+				"response": "Sí",
+				"gain": 2.0,
+				"next": "HomeRound.Success"
+			},
+			{
+				"response": "No",
+				"gain": 2.0,
+				"next": "HomeRound.Exit"
+			}
+		]
+	}
+}

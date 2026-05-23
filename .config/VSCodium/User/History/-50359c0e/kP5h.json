@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Aloe",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
+}

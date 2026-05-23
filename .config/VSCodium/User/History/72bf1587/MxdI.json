@@ -1,0 +1,28 @@
+{
+	"HomeRound1": {
+		"dialogs": [
+			{
+				"text": "Soy un texto de ejemplo que habla contigo <3",
+				"author": "clover"
+			},
+			{
+				"text": "JAjaj raw",
+				"author": "npc"
+			},
+			{
+				"text": "la puta un carterista",
+				"author": "clover"
+			}
+		],
+		"options": [
+			{
+				"response": "decr que no tienes efectivo",
+				"next": "HomeRound.Success"
+			},
+			{
+				"response": "darle la cartera",
+				"next": "HomeRound.Exit"
+			}
+		]
+	}
+}

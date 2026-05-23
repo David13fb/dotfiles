@@ -1,0 +1,49 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[kit] Successfully loaded 1 kits from /home/david/.local/share/CMakeTools/cmake-tools-kits.json
+[variant] Loaded new set of variants
+[main] [Quick Start] CmakeLists.txt created successfully.
+[presetController] Reading and validating the presets file "/home/david/Documentos/marp/CMakePresets.json"
+[presetController] Successfully validated /home/david/Documentos/marp/CMakePresets.json against presets schema
+[proc] Executing command: uname -s
+[presetController] Expanding presets file /home/david/Documentos/marp/CMakePresets.json
+[presetController] Successfully expanded presets file /home/david/Documentos/marp/CMakePresets.json
+[presetController] Reading and validating the presets file "/home/david/Documentos/marp/CMakePresets.json"
+[presetController] Successfully validated /home/david/Documentos/marp/CMakePresets.json against presets schema
+[presetController] Expanding presets file /home/david/Documentos/marp/CMakePresets.json
+[presetController] Successfully expanded presets file /home/david/Documentos/marp/CMakePresets.json
+[driver] Switching to configure preset: GCC 15.2.1 x86_64-redhat-linux
+[driver] Switching to build preset: __defaultBuildPreset__
+[driver] Switching to test preset: __defaultTestPreset__
+[driver] Switching to package preset: __defaultPackagePreset__
+[driver] Switching to workflow preset: __defaultWorkflowPreset__
+[main] [Quick Start] CMakePresets.json created successfully.
+[driver] Switching to package preset: __defaultPackagePreset__
+[driver] Switching to workflow preset: __defaultWorkflowPreset__
+[main] Configuring project: marp 
+[proc] Executing command: /usr/bin/cmake "-DCMAKE_INSTALL_PREFIX=/home/david/Documentos/marp/out/install/GCC 15.2.1 x86_64-redhat-linux" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_BUILD_TYPE=Debug -S /home/david/Documentos/marp -B "/home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux"
+[cmake] -- The C compiler identification is GNU 15.2.1
+[cmake] -- The CXX compiler identification is GNU 15.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done (1.2s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux
+[main] Configuring project: marp 
+[proc] Executing command: /usr/bin/cmake "-DCMAKE_INSTALL_PREFIX=/home/david/Documentos/marp/out/install/GCC 15.2.1 x86_64-redhat-linux" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_BUILD_TYPE=Debug -S /home/david/Documentos/marp -B "/home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux"
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux
+[main] Configuring project: marp 
+[proc] Executing command: /usr/bin/cmake "-DCMAKE_INSTALL_PREFIX=/home/david/Documentos/marp/out/install/GCC 15.2.1 x86_64-redhat-linux" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_BUILD_TYPE=Debug -S /home/david/Documentos/marp -B "/home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux"
+[cmake] -- Configuring done (0.1s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux

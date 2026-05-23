@@ -1,0 +1,18 @@
+2025-10-21 09:17:55.740 [info] Started local extension host with pid 4730.
+2025-10-21 09:17:57.465 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-21 09:17:58.557 [info] [perf] Render performance baseline is 57ms
+2025-10-21 09:18:02.140 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-21 09:18:02.549 [error] [Extension Host] (node:4730) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-21 09:18:50.712 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:18:51.072 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:18:54.447 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:19:17.423 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:20:27.371 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:25:21.758 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:25:35.710 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:27:55.711 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:27:56.603 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:28:05.010 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:28:29.750 [warning] [LM] No provider registered for vendor copilot
+2025-10-21 09:28:46.543 [warning] [LM] No provider registered for vendor copilot

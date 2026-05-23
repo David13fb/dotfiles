@@ -1,0 +1,105 @@
+29/12/2025, 10:09:41 360 AutomaticUpdateCheck
+Checking for updates after 300000. Last Update Date: 1970-01-01T00:00:00.000Z. Current Date: 2025-12-29T09:09:41.351Z
+
+29/12/2025, 10:09:41 361 AutomaticUpdateCheck
+Commencing updates at 1766999381361 in 300000 ms.
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.csharp for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.dotenv for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.mermaid-chat-features for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension vscode.prompt for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension 13xforever.language-x86-64-assembly for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension bbenoist.Doxygen for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension cheshirekow.cmake-format for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension cschlosser.doxdocgen for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension franneck94.c-cpp-runner for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension franneck94.vscode-c-cpp-config for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension franneck94.vscode-c-cpp-dev-extension-pack for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension jayceeliu.gcc for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension jeff-hykin.better-cpp-syntax for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension KylinIdeTeam.cmake-intellisence for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension KylinIdeTeam.cppdebug for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension KylinIdeTeam.kylin-clangd for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension KylinIdeTeam.kylin-cmake-tools for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension KylinIdeTeam.kylin-cpp-pack for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension Lab829.aloe for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-runtime for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cmake-tools for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension muhammad-sammy.csharp for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension neikeq.godot-csharp-vscode for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension twxs.cmake for .NET installation requests
+
+29/12/2025, 10:09:41 362 DotnetVSCodeExtensionFound
+true
+Checking extension vadimcn.vscode-lldb for .NET installation requests

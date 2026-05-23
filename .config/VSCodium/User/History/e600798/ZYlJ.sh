@@ -1,0 +1,1 @@
+ps aux | tail -n $1

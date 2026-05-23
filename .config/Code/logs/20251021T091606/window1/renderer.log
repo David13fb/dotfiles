@@ -1,0 +1,6 @@
+2025-10-21 09:16:09.206 [info] Started local extension host with pid 4085.
+2025-10-21 09:16:10.106 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-10-21 09:16:11.132 [error] [Extension Host] (node:4085) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-21 09:16:12.559 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-21 09:16:13.603 [info] [perf] Render performance baseline is 39ms

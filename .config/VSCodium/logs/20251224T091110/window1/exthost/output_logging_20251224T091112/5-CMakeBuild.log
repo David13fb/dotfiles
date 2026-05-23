@@ -1,0 +1,44 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[kit] Successfully loaded 1 kits from /home/david/.local/share/CMakeTools/cmake-tools-kits.json
+[presetController] Reading and validating the presets "file /home/david/Documentos/marp/CMakePresets.json"
+[presetController] Successfully validated /home/david/Documentos/marp/CMakePresets.json against presets schema
+[presetController] Expanding presets file /home/david/Documentos/marp/CMakePresets.json
+[proc] Executing command: uname -s
+[presetController] Successfully expanded presets file /home/david/Documentos/marp/CMakePresets.json
+[cmakefileapi-driver] Removing /home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux/CMakeCache.txt
+[main] Configuring project: marp 
+[proc] Executing command: /usr/bin/cmake "-DCMAKE_INSTALL_PREFIX=/home/david/Documentos/marp/out/install/GCC 15.2.1 x86_64-redhat-linux" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -S/home/david/Documentos/marp "-B/home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux"
+[cmake] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[cmake]   Compatibility with CMake < 3.10 will be removed from a future version of
+[cmake]   CMake.
+[cmake] 
+[cmake]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[cmake]   to tell CMake that the project requires at least <min> but has been updated
+[cmake]   to work with policies introduced by <max> or earlier.
+[cmake] 
+[cmake] 
+[cmake] -- The C compiler identification is GNU 15.2.1
+[cmake] -- The CXX compiler identification is GNU 15.2.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Contenido de config.txt (en tiempo de CMake): 2
+[cmake] 1234 200
+[cmake] 9000 300
+[cmake] 5
+[cmake] 2
+[cmake] 1111 100
+[cmake] 9999 1000
+[cmake] 9
+[cmake] 0
+[cmake] -- Configuring done (1.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/david/Documentos/marp/out/build/GCC 15.2.1 x86_64-redhat-linux

@@ -1,0 +1,1 @@
+ls -l | awk '{print substr($1,1,1), $9}'

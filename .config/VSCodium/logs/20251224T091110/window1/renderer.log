@@ -1,0 +1,421 @@
+2025-12-24 09:11:11.911 [info] Started local extension host with pid 9798.
+2025-12-24 09:11:12.324 [info] [ms-vscode.cmake-tools]: Command `cmake.openCMakePresets` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.325 [info] [ms-vscode.cmake-tools]: Command `cmake.addConfigurePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.325 [info] [ms-vscode.cmake-tools]: Command `cmake.addBuildPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.326 [info] [ms-vscode.cmake-tools]: Command `cmake.addTestPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.328 [info] [ms-vscode.cmake-tools]: Command `cmake.addPackagePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.329 [info] [ms-vscode.cmake-tools]: Command `cmake.addWorkflowPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.330 [info] [ms-vscode.cmake-tools]: Command `cmake.selectConfigurePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.330 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewConfigureSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.331 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectConfigurePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.331 [info] [ms-vscode.cmake-tools]: Command `cmake.selectBuildPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.332 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewBuildSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.332 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectBuildPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.333 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewTestSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.333 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewPackageSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.336 [info] [ms-vscode.cmake-tools]: Command `cmake.selectTestPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.336 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectTestPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.337 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setTestTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.338 [info] [ms-vscode.cmake-tools]: Command `cmake.selectPackagePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.339 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectPackagePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.339 [info] [ms-vscode.cmake-tools]: Command `cmake.selectWorkflowPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.340 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectWorkflowPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.343 [info] [ms-vscode.cmake-tools]: Command `cmake.viewLog` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.344 [info] [ms-vscode.cmake-tools]: Command `cmake.logDiagnostics` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.345 [info] [ms-vscode.cmake-tools]: Command `cmake.selectActiveFolder` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.345 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectActiveProject` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.346 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.selectWorkspace` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.346 [info] [ms-vscode.cmake-tools]: Command `cmake.editKits` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.347 [info] [ms-vscode.cmake-tools]: Command `cmake.scanForKits` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.347 [info] [ms-vscode.cmake-tools]: Command `cmake.scanForCompilers` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.349 [info] [ms-vscode.cmake-tools]: Command `cmake.selectKit` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.350 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectKit` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.350 [info] [ms-vscode.cmake-tools]: Command `cmake.setVariant` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.351 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setVariant` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.351 [info] [ms-vscode.cmake-tools]: Command `cmake.setVariantAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.352 [info] [ms-vscode.cmake-tools]: Command `cmake.configure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.352 [info] [ms-vscode.cmake-tools]: Command `cmake.configureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.353 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.353 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.configure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.354 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.354 [info] [ms-vscode.cmake-tools]: Command `cmake.showConfigureCommand` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.355 [info] [ms-vscode.cmake-tools]: Command `cmake.configureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.355 [info] [ms-vscode.cmake-tools]: Command `cmake.configureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.356 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.356 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.357 [info] [ms-vscode.cmake-tools]: Command `cmake.build` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.357 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.build` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.358 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.build` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.358 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.buildTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.359 [info] [ms-vscode.cmake-tools]: Command `cmake.showBuildCommand` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.359 [info] [ms-vscode.cmake-tools]: Command `cmake.buildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.360 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.buildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.360 [info] [ms-vscode.cmake-tools]: Command `cmake.compileFile` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.361 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.compileFile` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.361 [info] [ms-vscode.cmake-tools]: Command `cmake.install` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.362 [info] [ms-vscode.cmake-tools]: Command `cmake.installAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.362 [info] [ms-vscode.cmake-tools]: Command `cmake.buildWithTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.363 [info] [ms-vscode.cmake-tools]: Command `cmake.setDefaultTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.363 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.setDefaultTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.364 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setDefaultTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.365 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.365 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.365 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.cleanConfigure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.366 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.openSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.366 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.openVisibilitySettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.367 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.367 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.368 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.368 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.369 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.369 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.370 [info] [ms-vscode.cmake-tools]: Command `cmake.clean` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.370 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.clean` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.370 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.371 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.371 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanRebuild` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.371 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanRebuild` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.372 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanRebuildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.372 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanRebuildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.373 [info] [ms-vscode.cmake-tools]: Command `cmake.editCacheUI` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.373 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.editCacheUI` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.373 [info] [ms-vscode.cmake-tools]: Command `cmake.ctest` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.374 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.ctest` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.374 [info] [ms-vscode.cmake-tools]: Command `cmake.ctestAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.374 [info] [ms-vscode.cmake-tools]: Command `cmake.revealTestExplorer` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.375 [info] [ms-vscode.cmake-tools]: Command `cmake.refreshTests` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.375 [info] [ms-vscode.cmake-tools]: Command `cmake.refreshTestsAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.376 [info] [ms-vscode.cmake-tools]: Command `cmake.cpack` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.376 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.cpack` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.376 [info] [ms-vscode.cmake-tools]: Command `cmake.workflow` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.377 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.workflow` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.377 [info] [ms-vscode.cmake-tools]: Command `cmake.cpackAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.378 [info] [ms-vscode.cmake-tools]: Command `cmake.workflowAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.378 [info] [ms-vscode.cmake-tools]: Command `cmake.editCache` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.379 [info] [ms-vscode.cmake-tools]: Command `cmake.quickStart` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.379 [info] [ms-vscode.cmake-tools]: Command `cmake.debugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.380 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.debugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.380 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.debugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.381 [info] [ms-vscode.cmake-tools]: Command `cmake.debugTargetAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.381 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setDebugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.382 [info] [ms-vscode.cmake-tools]: Command `cmake.launchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.382 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.launchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.383 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.launchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.383 [info] [ms-vscode.cmake-tools]: Command `cmake.launchTargetAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.383 [info] [ms-vscode.cmake-tools]: Command `cmake.selectLaunchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.384 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.setLaunchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.384 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setLaunchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.385 [info] [ms-vscode.cmake-tools]: Command `cmake.stop` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.385 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.stop` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.386 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.stop` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.386 [info] [ms-vscode.cmake-tools]: Command `cmake.stopAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.387 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.stopAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.387 [info] [ms-vscode.cmake-tools]: Command `cmake.resetState` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.388 [info] [ms-vscode.cmake-tools]: Command `cmake.openSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.388 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.runUtilityTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.388 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.revealInCMakeLists` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.389 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.update` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.389 [info] [ms-vscode.cmake-tools]: Command `cmake.pinnedCommands.add` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.389 [info] [ms-vscode.cmake-tools]: Command `cmake.pinnedCommands.remove` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.390 [info] [ms-vscode.cmake-tools]: Command `cmake.pinnedCommands.run` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.391 [info] [ms-vscode.cmake-tools]: Command `cmake.appendBuildDirectoryToWorkspace` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:12.392 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.autoSelectActiveFolder'. This property is already registered.
+2025-12-24 09:11:12.392 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-12-24 09:11:12.393 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildDirectory'. This property is already registered.
+2025-12-24 09:11:12.393 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.installPrefix'. This property is already registered.
+2025-12-24 09:11:12.393 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.sourceDirectory'. This property is already registered.
+2025-12-24 09:11:12.394 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.saveBeforeBuild'. This property is already registered.
+2025-12-24 09:11:12.394 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildBeforeRun'. This property is already registered.
+2025-12-24 09:11:12.395 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.clearOutputBeforeBuild'. This property is already registered.
+2025-12-24 09:11:12.395 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureSettings'. This property is already registered.
+2025-12-24 09:11:12.395 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cacheInit'. This property is already registered.
+2025-12-24 09:11:12.397 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.preferredGenerators'. This property is already registered.
+2025-12-24 09:11:12.397 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.generator'. This property is already registered.
+2025-12-24 09:11:12.397 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.toolset'. This property is already registered.
+2025-12-24 09:11:12.397 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.platform'. This property is already registered.
+2025-12-24 09:11:12.398 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureArgs'. This property is already registered.
+2025-12-24 09:11:12.398 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildArgs'. This property is already registered.
+2025-12-24 09:11:12.398 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildToolArgs'. This property is already registered.
+2025-12-24 09:11:12.399 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.parallelJobs'. This property is already registered.
+2025-12-24 09:11:12.399 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctestPath'. This property is already registered.
+2025-12-24 09:11:12.399 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cpackPath'. This property is already registered.
+2025-12-24 09:11:12.399 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.parallelJobs'. This property is already registered.
+2025-12-24 09:11:12.399 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.allowParallelJobs'. This property is already registered.
+2025-12-24 09:11:12.400 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.testExplorerIntegrationEnabled'. This property is already registered.
+2025-12-24 09:11:12.400 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.testSuiteDelimiter'. This property is already registered.
+2025-12-24 09:11:12.400 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.parseBuildDiagnostics'. This property is already registered.
+2025-12-24 09:11:12.400 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.enabledOutputParsers'. This property is already registered.
+2025-12-24 09:11:12.400 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.debugConfig'. This property is already registered.
+2025-12-24 09:11:12.401 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.defaultVariants'. This property is already registered.
+2025-12-24 09:11:12.401 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctestArgs'. This property is already registered.
+2025-12-24 09:11:12.401 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctestDefaultArgs'. This property is already registered.
+2025-12-24 09:11:12.401 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cpackArgs'. This property is already registered.
+2025-12-24 09:11:12.401 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.environment'. This property is already registered.
+2025-12-24 09:11:12.402 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureEnvironment'. This property is already registered.
+2025-12-24 09:11:12.402 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildEnvironment'. This property is already registered.
+2025-12-24 09:11:12.402 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.testEnvironment'. This property is already registered.
+2025-12-24 09:11:12.402 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cpackEnvironment'. This property is already registered.
+2025-12-24 09:11:12.403 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.mingwSearchDirs'. This property is already registered.
+2025-12-24 09:11:12.403 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.additionalCompilerSearchDirs'. This property is already registered.
+2025-12-24 09:11:12.403 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.emscriptenSearchDirs'. This property is already registered.
+2025-12-24 09:11:12.403 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.mergedCompileCommands'. This property is already registered.
+2025-12-24 09:11:12.403 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.copyCompileCommands'. This property is already registered.
+2025-12-24 09:11:12.404 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureOnOpen'. This property is already registered.
+2025-12-24 09:11:12.404 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureOnEdit'. This property is already registered.
+2025-12-24 09:11:12.404 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.deleteBuildDirOnCleanConfigure'. This property is already registered.
+2025-12-24 09:11:12.404 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.setBuildTypeOnMultiConfig'. This property is already registered.
+2025-12-24 09:11:12.404 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.skipConfigureIfCachePresent'. This property is already registered.
+2025-12-24 09:11:12.405 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakeCommunicationMode'. This property is already registered.
+2025-12-24 09:11:12.405 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.showSystemKits'. This property is already registered.
+2025-12-24 09:11:12.405 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ignoreKitEnv'. This property is already registered.
+2025-12-24 09:11:12.405 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildTask'. This property is already registered.
+2025-12-24 09:11:12.405 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.outputLogEncoding'. This property is already registered.
+2025-12-24 09:11:12.406 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.enableTraceLogging'. This property is already registered.
+2025-12-24 09:11:12.406 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.loggingLevel'. This property is already registered.
+2025-12-24 09:11:12.406 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.touchbar.visibility'. This property is already registered.
+2025-12-24 09:11:12.406 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.touchbar.advanced'. This property is already registered.
+2025-12-24 09:11:12.406 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.showConfigureWithDebuggerNotification'. This property is already registered.
+2025-12-24 09:11:12.407 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.showNotAllDocumentsSavedQuestion'. This property is already registered.
+2025-12-24 09:11:12.407 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.options.statusBarVisibility'. This property is already registered.
+2025-12-24 09:11:12.407 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.options.advanced'. This property is already registered.
+2025-12-24 09:11:12.407 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.additionalKits'. This property is already registered.
+2025-12-24 09:11:12.407 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.revealLog'. This property is already registered.
+2025-12-24 09:11:12.408 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.exportCompileCommandsFile'. This property is already registered.
+2025-12-24 09:11:12.408 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.useCMakePresets'. This property is already registered.
+2025-12-24 09:11:12.408 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.useVsDeveloperEnvironment'. This property is already registered.
+2025-12-24 09:11:12.408 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.allowCommentsInPresetsFile'. This property is already registered.
+2025-12-24 09:11:12.408 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.allowUnsupportedPresetsVersions'. This property is already registered.
+2025-12-24 09:11:12.408 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.launchBehavior'. This property is already registered.
+2025-12-24 09:11:12.409 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ignoreCMakeListsMissing'. This property is already registered.
+2025-12-24 09:11:12.409 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.loadCompileCommands'. This property is already registered.
+2025-12-24 09:11:12.409 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.automaticReconfigure'. This property is already registered.
+2025-12-24 09:11:12.409 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.pinnedCommands'. This property is already registered.
+2025-12-24 09:11:12.409 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.enableAutomaticKitScan'. This property is already registered.
+2025-12-24 09:11:12.410 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-12-24 09:11:12.411 [error] [ms-vscode.cmake-tools]: Cannot register multiple views with same id `cmake.projectStatus`
+2025-12-24 09:11:12.412 [error] [ms-vscode.cmake-tools]: Cannot register multiple views with same id `cmake.outline`
+2025-12-24 09:11:12.412 [error] [ms-vscode.cmake-tools]: Cannot register multiple views with same id `cmake.pinnedCommands`
+2025-12-24 09:11:14.322 [error] [Extension Host] (node:9798) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-24 09:11:16.770 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.643Z [error] [cmake] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+2025-12-24 09:11:16.771 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.645Z [error] [cmake]   Compatibility with CMake < 3.10 will be removed from a future version of
+2025-12-24 09:11:16.772 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.646Z [error] [cmake]   CMake.
+2025-12-24 09:11:16.772 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.646Z [error] [cmake] 
+2025-12-24 09:11:16.772 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.646Z [error] [cmake]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+2025-12-24 09:11:16.773 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.646Z [error] [cmake]   to tell CMake that the project requires at least <min> but has been updated
+2025-12-24 09:11:16.773 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.647Z [error] [cmake]   to work with policies introduced by <max> or earlier.
+2025-12-24 09:11:16.773 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.647Z [error] [cmake] 
+2025-12-24 09:11:16.773 [error] [Extension Host] [CMakeTools] 2025-12-24T08:11:16.648Z [error] [cmake] 
+2025-12-24 09:11:16.950 [info] Auto updating outdated extensions. vadimcn.vscode-lldb
+2025-12-24 09:11:17.267 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-12-24 09:11:18.180 [info] [perf] Render performance baseline is 43ms
+2025-12-24 09:11:28.093 [info] Started local extension host with pid 10294.
+2025-12-24 09:11:28.233 [info] [ms-vscode.cmake-tools]: Command `cmake.openCMakePresets` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.233 [info] [ms-vscode.cmake-tools]: Command `cmake.addConfigurePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.234 [info] [ms-vscode.cmake-tools]: Command `cmake.addBuildPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.234 [info] [ms-vscode.cmake-tools]: Command `cmake.addTestPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.235 [info] [ms-vscode.cmake-tools]: Command `cmake.addPackagePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.235 [info] [ms-vscode.cmake-tools]: Command `cmake.addWorkflowPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.236 [info] [ms-vscode.cmake-tools]: Command `cmake.selectConfigurePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.236 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewConfigureSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.237 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectConfigurePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.237 [info] [ms-vscode.cmake-tools]: Command `cmake.selectBuildPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.238 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewBuildSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.238 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectBuildPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.239 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewTestSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.239 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.viewPackageSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.239 [info] [ms-vscode.cmake-tools]: Command `cmake.selectTestPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.240 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectTestPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.240 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setTestTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.240 [info] [ms-vscode.cmake-tools]: Command `cmake.selectPackagePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.241 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectPackagePreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.241 [info] [ms-vscode.cmake-tools]: Command `cmake.selectWorkflowPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.241 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectWorkflowPreset` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.242 [info] [ms-vscode.cmake-tools]: Command `cmake.viewLog` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.242 [info] [ms-vscode.cmake-tools]: Command `cmake.logDiagnostics` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.243 [info] [ms-vscode.cmake-tools]: Command `cmake.selectActiveFolder` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.243 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectActiveProject` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.243 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.selectWorkspace` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.244 [info] [ms-vscode.cmake-tools]: Command `cmake.editKits` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.244 [info] [ms-vscode.cmake-tools]: Command `cmake.scanForKits` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.245 [info] [ms-vscode.cmake-tools]: Command `cmake.scanForCompilers` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.245 [info] [ms-vscode.cmake-tools]: Command `cmake.selectKit` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.245 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.selectKit` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.246 [info] [ms-vscode.cmake-tools]: Command `cmake.setVariant` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.246 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setVariant` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.246 [info] [ms-vscode.cmake-tools]: Command `cmake.setVariantAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.247 [info] [ms-vscode.cmake-tools]: Command `cmake.configure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.247 [info] [ms-vscode.cmake-tools]: Command `cmake.configureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.248 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.248 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.configure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.248 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.249 [info] [ms-vscode.cmake-tools]: Command `cmake.showConfigureCommand` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.249 [info] [ms-vscode.cmake-tools]: Command `cmake.configureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.250 [info] [ms-vscode.cmake-tools]: Command `cmake.configureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.250 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.250 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.configureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.250 [info] [ms-vscode.cmake-tools]: Command `cmake.build` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.250 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.build` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.251 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.build` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.251 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.buildTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.251 [info] [ms-vscode.cmake-tools]: Command `cmake.showBuildCommand` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.251 [info] [ms-vscode.cmake-tools]: Command `cmake.buildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.251 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.buildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.251 [info] [ms-vscode.cmake-tools]: Command `cmake.compileFile` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.252 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.compileFile` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.252 [info] [ms-vscode.cmake-tools]: Command `cmake.install` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.252 [info] [ms-vscode.cmake-tools]: Command `cmake.installAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.252 [info] [ms-vscode.cmake-tools]: Command `cmake.buildWithTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.252 [info] [ms-vscode.cmake-tools]: Command `cmake.setDefaultTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.252 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.setDefaultTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.253 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setDefaultTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.253 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.253 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.253 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.cleanConfigure` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.253 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.openSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.253 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.openVisibilitySettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.254 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.254 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigureWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.254 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.254 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigureAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.254 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanConfigureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.255 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanConfigureAllWithDebugger` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.255 [info] [ms-vscode.cmake-tools]: Command `cmake.clean` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.255 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.clean` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.255 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.255 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.255 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanRebuild` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.256 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanRebuild` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.256 [info] [ms-vscode.cmake-tools]: Command `cmake.cleanRebuildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.256 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.cleanRebuildAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.256 [info] [ms-vscode.cmake-tools]: Command `cmake.editCacheUI` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.256 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.editCacheUI` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.256 [info] [ms-vscode.cmake-tools]: Command `cmake.ctest` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.257 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.ctest` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.257 [info] [ms-vscode.cmake-tools]: Command `cmake.ctestAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.257 [info] [ms-vscode.cmake-tools]: Command `cmake.revealTestExplorer` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.257 [info] [ms-vscode.cmake-tools]: Command `cmake.refreshTests` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.257 [info] [ms-vscode.cmake-tools]: Command `cmake.refreshTestsAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.258 [info] [ms-vscode.cmake-tools]: Command `cmake.cpack` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.258 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.cpack` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.258 [info] [ms-vscode.cmake-tools]: Command `cmake.workflow` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.258 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.workflow` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.258 [info] [ms-vscode.cmake-tools]: Command `cmake.cpackAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.258 [info] [ms-vscode.cmake-tools]: Command `cmake.workflowAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.259 [info] [ms-vscode.cmake-tools]: Command `cmake.editCache` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.259 [info] [ms-vscode.cmake-tools]: Command `cmake.quickStart` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.260 [info] [ms-vscode.cmake-tools]: Command `cmake.debugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.260 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.debugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.260 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.debugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.261 [info] [ms-vscode.cmake-tools]: Command `cmake.debugTargetAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.261 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setDebugTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.261 [info] [ms-vscode.cmake-tools]: Command `cmake.launchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.262 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.launchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.262 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.launchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.262 [info] [ms-vscode.cmake-tools]: Command `cmake.launchTargetAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.262 [info] [ms-vscode.cmake-tools]: Command `cmake.selectLaunchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.263 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.setLaunchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.263 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.setLaunchTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.263 [info] [ms-vscode.cmake-tools]: Command `cmake.stop` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.263 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.stop` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.263 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.stop` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.264 [info] [ms-vscode.cmake-tools]: Command `cmake.stopAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.264 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.stopAll` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.264 [info] [ms-vscode.cmake-tools]: Command `cmake.resetState` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.264 [info] [ms-vscode.cmake-tools]: Command `cmake.openSettings` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.264 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.runUtilityTarget` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.264 [info] [ms-vscode.cmake-tools]: Command `cmake.outline.revealInCMakeLists` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.265 [info] [ms-vscode.cmake-tools]: Command `cmake.projectStatus.update` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.265 [info] [ms-vscode.cmake-tools]: Command `cmake.pinnedCommands.add` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.265 [info] [ms-vscode.cmake-tools]: Command `cmake.pinnedCommands.remove` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.265 [info] [ms-vscode.cmake-tools]: Command `cmake.pinnedCommands.run` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.265 [info] [ms-vscode.cmake-tools]: Command `cmake.appendBuildDirectoryToWorkspace` already registered by CMake Tools (Fork) (KylinIdeTeam.kylin-cmake-tools)
+2025-12-24 09:11:28.265 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.autoSelectActiveFolder'. This property is already registered.
+2025-12-24 09:11:28.266 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-12-24 09:11:28.266 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildDirectory'. This property is already registered.
+2025-12-24 09:11:28.266 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.installPrefix'. This property is already registered.
+2025-12-24 09:11:28.266 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.sourceDirectory'. This property is already registered.
+2025-12-24 09:11:28.266 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.saveBeforeBuild'. This property is already registered.
+2025-12-24 09:11:28.266 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildBeforeRun'. This property is already registered.
+2025-12-24 09:11:28.267 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.clearOutputBeforeBuild'. This property is already registered.
+2025-12-24 09:11:28.267 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureSettings'. This property is already registered.
+2025-12-24 09:11:28.267 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cacheInit'. This property is already registered.
+2025-12-24 09:11:28.267 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.preferredGenerators'. This property is already registered.
+2025-12-24 09:11:28.267 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.generator'. This property is already registered.
+2025-12-24 09:11:28.267 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.toolset'. This property is already registered.
+2025-12-24 09:11:28.268 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.platform'. This property is already registered.
+2025-12-24 09:11:28.268 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureArgs'. This property is already registered.
+2025-12-24 09:11:28.268 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildArgs'. This property is already registered.
+2025-12-24 09:11:28.268 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildToolArgs'. This property is already registered.
+2025-12-24 09:11:28.268 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.parallelJobs'. This property is already registered.
+2025-12-24 09:11:28.269 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctestPath'. This property is already registered.
+2025-12-24 09:11:28.269 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cpackPath'. This property is already registered.
+2025-12-24 09:11:28.269 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.parallelJobs'. This property is already registered.
+2025-12-24 09:11:28.269 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.allowParallelJobs'. This property is already registered.
+2025-12-24 09:11:28.269 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.testExplorerIntegrationEnabled'. This property is already registered.
+2025-12-24 09:11:28.269 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctest.testSuiteDelimiter'. This property is already registered.
+2025-12-24 09:11:28.270 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.parseBuildDiagnostics'. This property is already registered.
+2025-12-24 09:11:28.270 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.enabledOutputParsers'. This property is already registered.
+2025-12-24 09:11:28.270 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.debugConfig'. This property is already registered.
+2025-12-24 09:11:28.270 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.defaultVariants'. This property is already registered.
+2025-12-24 09:11:28.270 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctestArgs'. This property is already registered.
+2025-12-24 09:11:28.271 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ctestDefaultArgs'. This property is already registered.
+2025-12-24 09:11:28.271 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cpackArgs'. This property is already registered.
+2025-12-24 09:11:28.271 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.environment'. This property is already registered.
+2025-12-24 09:11:28.271 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureEnvironment'. This property is already registered.
+2025-12-24 09:11:28.271 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildEnvironment'. This property is already registered.
+2025-12-24 09:11:28.271 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.testEnvironment'. This property is already registered.
+2025-12-24 09:11:28.272 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cpackEnvironment'. This property is already registered.
+2025-12-24 09:11:28.272 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.mingwSearchDirs'. This property is already registered.
+2025-12-24 09:11:28.272 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.additionalCompilerSearchDirs'. This property is already registered.
+2025-12-24 09:11:28.272 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.emscriptenSearchDirs'. This property is already registered.
+2025-12-24 09:11:28.272 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.mergedCompileCommands'. This property is already registered.
+2025-12-24 09:11:28.273 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.copyCompileCommands'. This property is already registered.
+2025-12-24 09:11:28.273 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureOnOpen'. This property is already registered.
+2025-12-24 09:11:28.273 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.configureOnEdit'. This property is already registered.
+2025-12-24 09:11:28.273 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.deleteBuildDirOnCleanConfigure'. This property is already registered.
+2025-12-24 09:11:28.274 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.setBuildTypeOnMultiConfig'. This property is already registered.
+2025-12-24 09:11:28.274 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.skipConfigureIfCachePresent'. This property is already registered.
+2025-12-24 09:11:28.274 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakeCommunicationMode'. This property is already registered.
+2025-12-24 09:11:28.274 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.showSystemKits'. This property is already registered.
+2025-12-24 09:11:28.274 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ignoreKitEnv'. This property is already registered.
+2025-12-24 09:11:28.275 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.buildTask'. This property is already registered.
+2025-12-24 09:11:28.275 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.outputLogEncoding'. This property is already registered.
+2025-12-24 09:11:28.275 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.enableTraceLogging'. This property is already registered.
+2025-12-24 09:11:28.275 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.loggingLevel'. This property is already registered.
+2025-12-24 09:11:28.275 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.touchbar.visibility'. This property is already registered.
+2025-12-24 09:11:28.275 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.touchbar.advanced'. This property is already registered.
+2025-12-24 09:11:28.275 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.showConfigureWithDebuggerNotification'. This property is already registered.
+2025-12-24 09:11:28.276 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.showNotAllDocumentsSavedQuestion'. This property is already registered.
+2025-12-24 09:11:28.276 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.options.statusBarVisibility'. This property is already registered.
+2025-12-24 09:11:28.276 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.options.advanced'. This property is already registered.
+2025-12-24 09:11:28.276 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.additionalKits'. This property is already registered.
+2025-12-24 09:11:28.276 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.revealLog'. This property is already registered.
+2025-12-24 09:11:28.276 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.exportCompileCommandsFile'. This property is already registered.
+2025-12-24 09:11:28.277 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.useCMakePresets'. This property is already registered.
+2025-12-24 09:11:28.277 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.useVsDeveloperEnvironment'. This property is already registered.
+2025-12-24 09:11:28.278 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.allowCommentsInPresetsFile'. This property is already registered.
+2025-12-24 09:11:28.278 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.allowUnsupportedPresetsVersions'. This property is already registered.
+2025-12-24 09:11:28.278 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.launchBehavior'. This property is already registered.
+2025-12-24 09:11:28.278 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.ignoreCMakeListsMissing'. This property is already registered.
+2025-12-24 09:11:28.278 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.loadCompileCommands'. This property is already registered.
+2025-12-24 09:11:28.278 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.automaticReconfigure'. This property is already registered.
+2025-12-24 09:11:28.279 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.pinnedCommands'. This property is already registered.
+2025-12-24 09:11:28.279 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.enableAutomaticKitScan'. This property is already registered.
+2025-12-24 09:11:28.279 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-12-24 09:11:28.297 [error] [ms-vscode.cmake-tools]: Cannot register multiple views with same id `cmake.projectStatus`
+2025-12-24 09:11:28.297 [error] [ms-vscode.cmake-tools]: Cannot register multiple views with same id `cmake.outline`
+2025-12-24 09:11:28.298 [error] [ms-vscode.cmake-tools]: Cannot register multiple views with same id `cmake.pinnedCommands`
+2025-12-24 09:11:29.656 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at _Dt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-12-24 09:11:30.752 [info] [perf] Render performance baseline is 33ms
+2025-12-24 09:11:30.850 [info] Auto updating outdated extensions. vadimcn.vscode-lldb
+2025-12-24 10:26:32.391 [error] [Extension Host] (node:10294) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-24 10:27:22.068 [error] [Extension Host] [CMakeTools] 2025-12-24T09:27:22.064Z [error] [variant] Invalid variants specified:
+2025-12-24 10:27:22.068 [error] [Extension Host] [CMakeTools] 2025-12-24T09:27:22.065Z [error] [variant]  >> : should be object
+2025-12-24 10:27:39.103 [error] [Extension Host] [CMakeTools] 2025-12-24T09:27:39.103Z [error] [variant] Invalid variants specified:
+2025-12-24 10:27:39.104 [error] [Extension Host] [CMakeTools] 2025-12-24T09:27:39.103Z [error] [variant]  >> : should be object
