@@ -1,8 +1,0 @@
-@import url('/home/david/.config/gtk-3.0/colors.css');
-
-/* Aplicación global de colores base */
-* {
-    background-color: @window_bg_color;
-    color: @window_fg_color;
-    border-color: @sidebar_border_color;
-}

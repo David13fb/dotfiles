@@ -1,8 +1,0 @@
-@import url("colors.css");
-
-/* Aplicación global de colores base */
-* {
-    background-color: @window_bg_color;
-    color: @window_fg_color;
-    border-color: @sidebar_border_color;
-}

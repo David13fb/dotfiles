@@ -1,1 +1,0 @@
-ps | tail --lines $1
