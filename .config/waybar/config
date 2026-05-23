@@ -120,7 +120,7 @@
 
     // --- SEGUNDO MONITOR (SIN BARRA DE LUZ) ---
     {
-        "output": ["*"], // Reemplaza con el nombre de tu segundo monitor
+        "output": ["!eDP-1"], // Reemplaza con el nombre de tu segundo monitor
         "layer": "top",
         "margin-top": 7,
         "height": 17,
