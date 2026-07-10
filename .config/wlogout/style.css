@@ -1,0 +1,37 @@
+﻿* {
+    all: unset;
+}
+
+window {
+    background-color: rgba(15, 20, 23, 0.65);
+}
+
+/* Estilo general de los botones forzando forma cuadrada */
+button {
+    background-color: #1c2023;
+    color: #dfe3e7;
+    border-radius: 20px;
+    
+    /* Forza el tamaño cuadrado idéntico */
+    min-width: 150px;
+    min-height: 150px;
+    margin: 20px;
+
+    /* Configuración del icono integrado */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%; /* Ajusta este % si quieres el icono más grande o pequeño */
+}
+
+button:hover {
+    background-color: #91cef4;
+    color: #00344a;
+}
+
+/* Iconos */
+#lock { background-image: url("/usr/share/wlogout/icons/lock.png"); }
+#logout { background-image: url("/usr/share/wlogout/icons/logout.png"); }
+#suspend { background-image: url("/usr/share/wlogout/icons/suspend.png"); }
+#hibernate { background-image: url("/usr/share/wlogout/icons/hibernate.png"); }
+#shutdown { background-image: url("/usr/share/wlogout/icons/shutdown.png"); }
+#reboot { background-image: url("/usr/share/wlogout/icons/reboot.png"); }
