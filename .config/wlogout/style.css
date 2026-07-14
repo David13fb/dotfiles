@@ -8,7 +8,7 @@ window {
 
 /* Estilo general de los botones forzando forma cuadrada */
 button {
-    background-color: #1c2023;
+    background-color: #1b2023;
     color: #dfe3e7;
     border-radius: 20px;
     
@@ -24,8 +24,8 @@ button {
 }
 
 button:hover {
-    background-color: #91cef4;
-    color: #00344a;
+    background-color: #8ccff0;
+    color: #003547;
 }
 
 /* Iconos */

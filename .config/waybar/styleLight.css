@@ -32,8 +32,8 @@ window#waybar > box {
 }
 
 .modules-right {
-    background-color: @surface_container_lowest;
-    border: 1px solid @outline;
+    background-color: @surface_container_low;
+    border: 1px solid @outline_variant;
     border-radius: 12px;
     margin: 0px 0px;
     padding: 0 12px;
@@ -67,9 +67,9 @@ tooltip label {
 #workspaces button {
     padding: 0 5px;
     margin: 0px 1px;
-    background: @surface_container;
-    color: @on_surface_variant;
-    border: 1px solid @outline;
+    background: @on_primary;
+    color: @on_surface;
+    border-bottom: 0px solid transparent;
     border-radius: 10px;
     min-width: 20px;
     /* Aseguramos que el botón no tenga sombras raras */
@@ -82,16 +82,16 @@ tooltip label {
     transition: all 500ms ease-in-out;
     padding: 0 5px;
     margin: 0px 1px;
-    background: @primary;
-    color: @on_primary;
-    border: 1px solid @primary;
+    background: @primary_container;
+    color: @on_primary_container;
+    border-bottom: 0px solid transparent;
     font-size: 12pt;
     border-radius: 10px;
 }
 
 #workspaces button.focused {
-    background: @secondary;
-    border: 1px solid @secondary;
+    background: @secondary_container;
+    color: @on_secondary_container;
     border-bottom: 0px solid #7ee5e8;
     font-size: 12pt;
     border-radius: 10px;
@@ -111,7 +111,7 @@ tooltip label {
     min-height: 10px;
     min-width: 80px;
     border-radius: 5px;
-    background: @on_surface;
+    background: @surface_variant;
 }
 #backlight-slider highlight {
     min-width: 7px;
@@ -122,30 +122,30 @@ tooltip label {
 #clock {
     font-size: 12pt;
     padding: 0 10px;         
-    background:@primary;
-    color: @on_primary;
+    background:@on_primary;
+    color: @on_surface_variant;
     border-radius: 12px;  
 }
 #battery {
     font-size: 12pt;
     background-color: transparent;
-    color: @on_surface;
+    color: @on_surface_variant;
 }
 
 #power-profiles-daemon {
     font-size: 12pt;
     background-color: transparent;
-    color: @on_surface;
+    color: @on_surface_variant;
 }
 
 #network {
     font-size: 12pt;
     background-color: transparent;
-    color: @on_surface;
+    color: @on_surface_variant;
 }
 
 #pulseaudio {
     font-size: 12pt;
     background-color: transparent;
-    color: @on_surface;
+    color: @on_surface_variant;
 }
