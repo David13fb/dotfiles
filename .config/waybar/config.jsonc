@@ -12,7 +12,8 @@
     "modules-left": [
         "sway/workspaces",
         "sway/mode",
-        "sway/scratchpad"
+        "sway/scratchpad",
+        "custom/player"
     ],
     "modules-center": [
         "clock"
@@ -177,5 +178,12 @@
         "interval": 3600,
         "exec": "wttrbar --date-format \"%d.%m.%Y\" -l de",
         "return-type": "json"
+    },
+
+    "custom/player": {
+        "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
+        "escape": true,
+        "tooltip": false,
+        "interval": 1
     }
 }

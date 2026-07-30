@@ -6,7 +6,7 @@
         "margin-top": 7,
         "height": 17,
         "modules-left": [
-            "hyprland/workspaces"
+            "hyprland/workspaces", "custom/player"
         ],
         "modules-center": [
             "clock"
@@ -111,6 +111,13 @@
                 "active": "",
                 "default": ""
             },
+        "custom/player": {
+            "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
+            "max-length": 30,
+            "escape": true,
+            "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
+        },
+        
             "persistent-workspaces": {
                 "*": 5,
                 "HDMI-A-1": 3
@@ -125,7 +132,7 @@
         "margin-top": 7,
         "height": 17,
         "modules-left": [
-            "hyprland/workspaces"
+            "hyprland/workspaces" ,"custom/player"
         ],
         "modules-center": [
             "clock"
@@ -171,6 +178,14 @@
                 "Easy Effects Sink"
             ]
         },
+
+        "custom/player": {
+            "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
+            "max-length": 30,
+            "escape": true,
+            "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
+        },
+        
         "network": {
             "interface": "wlo1",
             "format": "{ifname}",

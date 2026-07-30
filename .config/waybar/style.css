@@ -149,3 +149,14 @@ tooltip label {
     background-color: transparent;
     color: @on_surface;
 }
+
+#custom-player {
+    background: @surface_container;
+    color: @on_surface_variant;
+    padding: 0 10px;
+    font-size: 12pt;
+    min-width: 11px;
+    border: 1px solid @outline;
+    border-radius: 12px;
+    margin-left: 10px;
+}

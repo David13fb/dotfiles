@@ -149,3 +149,15 @@ tooltip label {
     background-color: transparent;
     color: @on_surface_variant;
 }
+
+#custom-player {
+    max-width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0%   { text-shadow: 0 0 white; transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
