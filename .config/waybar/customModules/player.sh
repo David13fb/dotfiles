@@ -4,7 +4,7 @@
 ANCHO=25
 
 # Marcos de la animación del ecualizador
-animation_frames=("▂▄▆" "▄▂▆" "▄▆▂" "▆▄▂" "▆▂▄")
+animation_frames=( " ▂▄▆" "▄▂▆ " "▄▆▂ " "▆▄▂ " "▆▂▄ " )
 num_frames=${#animation_frames[@]}
 frame_index=0
 
@@ -23,9 +23,9 @@ while true; do
         continue
     fi
 
-    # Si está sonando, obtenemos el texto de la canción
-    TEXTO=$(playerctl metadata --format '{{title}} - {{artist}}' 2>/dev/null)
-    TEXTO="$TEXTO       "
+    # Si está sonando, obtenemos el texto de la canción (Corregidas las comillas del formato)
+    TEXTO=$(playerctl metadata --format "{{title}} - {{artist}}" 2>/dev/null)
+    TEXTO="${TEXTO} " # Espacio al final para que no se pegue al dar la vuelta
     LONGITUD=${#TEXTO}
 
     # Bucle para realizar el efecto de scroll combinado con la animación del icono
@@ -41,24 +41,24 @@ while true; do
             break
         fi
 
-        # Seleccionamos el frame actual de la animación
+        # Seleccionamos el frame actual de la animación (Quitado espacio después de =)
         FRAME="${animation_frames[$frame_index]}"
         
         # Avanzamos al siguiente frame para la próxima letra
         frame_index=$(( (frame_index + 1) % num_frames ))
 
-        # Cortamos el texto según la posición actual del scroll
+        # Cortamos el texto según la posición actual del scroll (Quitado espacio después de =)
         CORTADO="${TEXTO:$i:$ANCHO}"
-        
+
         # Rellena el espacio si llega al final del texto
         if [ ${#CORTADO} -lt $ANCHO ]; then
             FALTA=$((ANCHO - ${#CORTADO}))
-            CORTADO="$CORTADO${TEXTO:0:$FALTA}"
+            CORTADO="${CORTADO}${TEXTO:0:$FALTA}"
         fi
-        
+
         # Imprimimos el icono animado seguido del texto en scroll
-        echo "$FRAME $CORTADO"
-        
+        echo "${FRAME} ${CORTADO}"
+
         # El sleep de 0.25 funciona perfecto tanto para la velocidad de lectura como para la animación
         sleep 0.25
     done

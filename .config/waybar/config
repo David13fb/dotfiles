@@ -100,6 +100,12 @@
             "tooltip-format-disconnected": "disc",
             "max-length": 50
         },
+        "custom/player": {
+            "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
+            "max-length": 30,
+            "escape": true,
+            "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
+        },
         "hyprland/workspaces": {
             "format": "{name}",
             "format-icons": {
@@ -111,12 +117,6 @@
                 "active": "",
                 "default": ""
             },
-        "custom/player": {
-            "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
-            "max-length": 30,
-            "escape": true,
-            "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
-        },
         
             "persistent-workspaces": {
                 "*": 5,
