@@ -1,30 +1,30 @@
 /* Generado con Matugen */
-@define-color accent_color #81d3de;
-@define-color accent_fg_color #001f23;
-@define-color accent_bg_color #81d3de;
-@define-color window_bg_color #0e1415;
-@define-color window_fg_color #dee4e4;
-@define-color headerbar_bg_color #0e1415;
-@define-color headerbar_fg_color #dee4e4;
-@define-color sidebar_bg_color #0e1415;
-@define-color sidebar_fg_color #dee4e4;
-@define-color theme_bg_color #0e1415;
-@define-color theme_fg_color #dee4e4;
-@define-color theme_base_color #0e1415;
-@define-color theme_text_color #dee4e4;
-@define-color theme_selected_bg_color #81d3de;
-@define-color theme_selected_fg_color #001f23;
+@define-color accent_color #8ccff0;
+@define-color accent_fg_color #001f2a;
+@define-color accent_bg_color #8ccff0;
+@define-color window_bg_color #0f1417;
+@define-color window_fg_color #dfe3e7;
+@define-color headerbar_bg_color #0f1417;
+@define-color headerbar_fg_color #dfe3e7;
+@define-color sidebar_bg_color #0f1417;
+@define-color sidebar_fg_color #dfe3e7;
+@define-color theme_bg_color #0f1417;
+@define-color theme_fg_color #dfe3e7;
+@define-color theme_base_color #0f1417;
+@define-color theme_text_color #dfe3e7;
+@define-color theme_selected_bg_color #8ccff0;
+@define-color theme_selected_fg_color #001f2a;
 /* Fondos principales de ventana y diálogos */
-@define-color window_bg_color #0e1415;
-@define-color theme_bg_color #0e1415;
+@define-color window_bg_color #0f1417;
+@define-color theme_bg_color #0f1417;
 
 /* Fondos de áreas de contenido (listas, editores, iconos) */
-@define-color view_bg_color #0e1415;
-@define-color theme_base_color #0e1415;
+@define-color view_bg_color #0f1417;
+@define-color theme_base_color #0f1417;
 
 /* Fondos de barras de herramientas y cabeceras */
-@define-color headerbar_bg_color #0e1415;
+@define-color headerbar_bg_color #0f1417;
 
 /* Forzado para aplicaciones que usan selectores CSS antiguos */
-@define-color bg_color #0e1415;
-@define-color base_color #0e1415;
+@define-color bg_color #0f1417;
+@define-color base_color #0f1417;

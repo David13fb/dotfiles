@@ -1,22 +1,17 @@
 [config]
-# Configuraciones globales aquí (opcional)
 reload_apps = true
 
 [templates.hyprland]
-input_path = '~/.config/matugen/templates/hyprland-colors.conf'
-output_path = '~/.config/hypr/colors.conf'
+input_path = '/home/david/.config/matugen/templates/hyprland-colors.conf'
+output_path = '/home/david/.config/hypr/colors.conf'
 post_hook = 'hyprctl reload'
 
 [templates.kitty]
-input_path = '~/.config/matugen/templates/kitty-colors.conf'
-output_path = '~/.config/kitty/themes/matugen.conf'
+input_path = '/home/david/.config/matugen/templates/kitty-colors.conf'
+output_path = '/home/david/.config/kitty/themes/matugen.conf'
 post_hook = "kitty +kitten themes --reload-in=all --cache-age -1 Matugen"
 
 
-[templates.waybar]
-input_path = '~/.config/matugen/templates/colors.css' 
-output_path = '~/.config/waybar/colors.css'
-post_hook = 'pgrep waybar && pkill -SIGUSR2 waybar'
 
 [templates.yazi]
 input_path = '/home/david/.config/matugen/templates/yazi-theme.toml'
@@ -24,21 +19,26 @@ output_path = '/home/david/.config/yazi/theme.toml'
 
 [templates.wofi]
 input_path = "/home/david/.config/matugen/templates/colors.css"
-output_path = "~/.config/wofi/colors.css"
+output_path = "/home/david/.config/wofi/colors.css"
 
 [templates.obsidian]
 input_path = '/home/david/.config/matugen/templates/obsidian.css'
 output_path = '/home/david/Documentos/matugen.css'
 
+# CORREGIDAS LAS TILDES POR RUTAS ABSOLUTAS EXPLICITAS PARA FEDORA
 [templates.gtk3]
 input_path = '/home/david/.config/matugen/templates/gtk-colors.css'
-output_path = '~/.config/gtk-3.0/colors.css'
-
+output_path = '/home/david/.config/gtk-3.0/colors.css'
 
 [templates.gtk4]
 input_path = '/home/david/.config/matugen/templates/gtk-colors.css'
-output_path = '~/.config/gtk-4.0/colors.css'
+output_path = '/home/david/.config/gtk-4.0/colors.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3" && sleep 0.05 && gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark"'
 
 [templates.wlogout] 
 input_path = '/home/david/dotfiles/.config/matugen/templates/wlogout.css'
 output_path = '/home/david/dotfiles/.config/wlogout/style.css'
+
+[templates.waybar]
+input_path = '/home/david/.config/matugen/templates/colors.css' 
+output_path = '/home/david/.config/waybar/colors.css'
