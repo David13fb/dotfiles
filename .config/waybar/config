@@ -6,13 +6,15 @@
         "margin-top": 7,
         "height": 17,
         "modules-left": [
-            "hyprland/workspaces", "custom/player"
+            "hyprland/workspaces",
+            "custom/player"
         ],
         "modules-center": [
             "clock"
         ],
-        "modules-right": ["group/right"],
-
+        "modules-right": [
+            "group/right"
+        ],
         "group/right": {
             "orientation": "horizontal",
             "modules": [
@@ -20,7 +22,8 @@
                 "pulseaudio",
                 "network",
                 "battery",
-                "power-profiles-daemon"
+                "power-profiles-daemon",
+                "custom/power"
             ]
         },
         "backlight/slider": {
@@ -106,6 +109,11 @@
             "escape": true,
             "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
         },
+        "custom/power": {
+            "format": " ⏻",
+            "tooltip": false,
+            "on-click": "wlogout -b 4 -l /home/david/.config/wlogout/layout -C /home/david/.config/wlogout/style.css"
+        },
         "hyprland/workspaces": {
             "format": "{name}",
             "format-icons": {
@@ -117,37 +125,39 @@
                 "active": "",
                 "default": ""
             },
-        
             "persistent-workspaces": {
                 "*": 5,
                 "HDMI-A-1": 3
             }
         }
     },
-
     // --- SEGUNDO MONITOR (SIN BARRA DE LUZ) ---
     {
-        "output": ["DP-1","HDMI-A-1"], // Reemplaza con el nombre de tu segundo monitor
+        "output": [
+            "DP-1",
+            "HDMI-A-1"
+        ], // Reemplaza con el nombre de tu segundo monitor
         "layer": "top",
         "margin-top": 7,
         "height": 17,
         "modules-left": [
-            "hyprland/workspaces" ,"custom/player"
+            "hyprland/workspaces",
+            "custom/player"
         ],
         "modules-center": [
             "clock"
         ],
-        "modules-right": ["group/right-secondary"],
-
+        "modules-right": [
+            "group/right-secondary"
+        ],
         "group/right-secondary": {
             "orientation": "horizontal",
             "modules": [
-               
                 "pulseaudio",
-                "network"
+                "network",
+                "custom/power"
             ]
         },
-      
         "clock": {
             "interval": 60,
             "format": "{:%H:%M}",
@@ -178,14 +188,12 @@
                 "Easy Effects Sink"
             ]
         },
-
         "custom/player": {
             "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
             "max-length": 30,
             "escape": true,
             "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
         },
-        
         "network": {
             "interface": "wlo1",
             "format": "{ifname}",
@@ -197,6 +205,11 @@
             "tooltip-format-ethernet": "",
             "tooltip-format-disconnected": "disc",
             "max-length": 50
+        },
+        "custom/power": {
+            "format": " ⏻",
+            "tooltip": false,
+            "on-click": "wlogout -b 4 -l /home/david/.config/wlogout/layout -C /home/david/.config/wlogout/style.css"
         },
         "hyprland/workspaces": {
             "format": "{name}",
