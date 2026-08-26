@@ -40,6 +40,36 @@ PopupWindow {
         "-l", "/home/david/.config/wlogout/layout", 
         "-C", "/home/david/.config/wlogout/style.css"]
     }
+    
+ Process {
+        id: brightnessProc
+        command: ["brightnessctl", "set", Math.max(5, Math.round(brightnessSlider.value * 100)) + "%"]
+    }
+
+
+    FileView {
+        id: currentBrightnessFile
+        path: "/sys/class/backlight/intel_backlight/brightness"
+        watchChanges: true
+
+        onDataChanged: {
+            let current = parseInt(text().trim());
+            let max = parseInt(maxBrightnessFile.text().trim() || "1");
+            if (current && max && !brightnessSlider.pressed) {
+                brightnessSlider.value = current / max;
+            }
+        }
+    }
+
+    FileView {
+        id: maxBrightnessFile
+        path: "/sys/class/backlight/intel_backlight/max_brightness"
+    }
+
+    Component.onCompleted: {
+        currentBrightnessFile.reload();
+        maxBrightnessFile.reload();
+    }
 
     anchor.window: topBar
     anchor.rect: {
@@ -299,7 +329,7 @@ PopupWindow {
                         }
                     }
 
-                    // CONTROL BRILLO
+                                        // CONTROL BRILLO NATIVO
                     RowLayout {
                         spacing: 10
                         Text {
@@ -311,7 +341,13 @@ PopupWindow {
                         Slider {
                             id: brightnessSlider
                             Layout.fillWidth: true
-                            value: 0.6
+                            value: 0.6 // Fallback temporal antes de leer el hardware
+
+                            // Ejecuta el comando en Fedora al arrastrar
+                            onMoved: {
+                                let pct = Math.round(brightnessSlider.value * 100);
+                                brightnessProc.running = true
+                            }
 
                             background: Rectangle {
                                 x: brightnessSlider.leftPadding
@@ -341,6 +377,7 @@ PopupWindow {
                             }
                         }
                     }
+
                 }
 
 
@@ -418,7 +455,7 @@ PopupWindow {
                                         marqueeAnimation.stop();
                                         x = 0;
                                         if (isTooLong && MediaService.playbackStatus === "Playing") {
-                                            marqueeAnimation.start();
+                                            marqueeAnimation.running == true;
                                         }
                                     }
                                 }

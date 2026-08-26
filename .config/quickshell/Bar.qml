@@ -45,7 +45,7 @@ Scope {
                     anchors.rightMargin: 0
 
                     ///########
-                    ///Right modules
+                    ///left modules
                     ///########
                     // Workspaces alineados a la izquierda
                     
@@ -86,7 +86,7 @@ Scope {
                         RowLayout {
                             id: centerLayout
                             anchors.centerIn: parent
-                            spacing: MediaWidget.visible ? 8 : 0 // 🔥 Spacing dinámico para que no deje un hueco vacío
+                            spacing: MediaWidget.visible ? 8 : 0 // Spacing dinámico para que no deje un hueco vacío
 
                             ClockWidget {
                                 Layout.alignment: Qt.AlignVCenter
@@ -101,7 +101,7 @@ Scope {
 
  
                     ///########
-                    ///Left modules
+                    ///Right modules
                     ///########
                     // Dentro del layout derecho de tu Bar.qml
                     RowLayout {
@@ -114,6 +114,9 @@ Scope {
                         
                         // Monitor de Wi-Fi
                         WifiWidget {}
+
+                        BatteryWidget{
+                        }
                         Rectangle {
                             id: controlCenterButton
                             implicitWidth: 32

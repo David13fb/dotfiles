@@ -11,6 +11,7 @@ Rectangle {
     height: 30
     radius: 20
     
+    
     color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_variant !== "transparent")
            ? Colors.md3.surface_variant
            : "#42474e"
@@ -36,8 +37,16 @@ Rectangle {
     MouseArea {
         anchors.fill: parent
         cursorShape: Qt.PointingHandCursor
-        onClicked: audioMenu.visible = !audioMenu.visible
-        
+         acceptedButtons: Qt.LeftButton | Qt.RightButton 
+
+        onClicked: (mouse) => {
+            if (mouse.button === Qt.LeftButton) {
+                audioMenu.visible = !audioMenu.visible
+            } else if (mouse.button === Qt.RightButton) {
+                
+                AudioService.openVolumeMixer();
+            }
+        }
         // Control rápido mediante rueda del ratón delegando al Singleton
         onWheel: (wheel) => {
             AudioService.stepVolume(wheel.angleDelta.y > 0);

@@ -29,3 +29,4 @@ fi
 export VISUAL=nvim
 unset rc
 export PATH="$HOME/.local/share/yabridge:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"

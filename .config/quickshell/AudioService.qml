@@ -36,6 +36,15 @@ Scope {
         }
     }
 
+    Process {
+        id:openVoluneMenu
+        command: ["pavucontrol"]
+    }
+
+    function openVolumeMixer() {
+        openVoluneMenu.running = true // O openVoluneMenu.start()
+    }
+
     // Actualiza el volumen de fondo de forma automatizada cada 2 segundos
     Timer {
         interval: 2000
