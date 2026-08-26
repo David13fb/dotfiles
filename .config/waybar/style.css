@@ -1,55 +1,50 @@
 @import url("/home/david/.config/waybar/colors.css");
 
-
 * {
     border: none;
-    font-family: "SF Pro Display","JetBrainsMono Nerd Font Propo";
+    font-family: SF Pro Display, JetBrainsMono Nerd Font Propo;
     min-height: 0;
     margin: 0;
     padding: 0;
     background-color: transparent;
     text-shadow: none;
     box-shadow: none;
-
 }
-
-
 
 window#waybar {
-   background: transparent;
-}
-window#waybar > box {
-   background: transparent;
+    background: transparent;
 }
 
-/* Forzamos transparencia en los contenedores de la izquierda y el centro */
-.modules-left{
-    margin-left: 7px;
-    background-color: transparent;
+window#waybar>box {
+    background: transparent;
 }
+
+.modules-left {
+    background-color: @surface_container_high;
+    border-radius: 0px 0px 15px 0px;
+}
+
 .modules-center {
     background-color: transparent;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .modules-right {
-    background-color: @surface_container_lowest;
-    border: 1px solid @outline;
-    border-radius: 12px;
-    margin: 0px 0px;
-    padding: 0 12px;
+    background-color: @surface_container_high;
+    margin: 0px 0px 0px 0px;
     transition: all 0.3s ease;
     font-size: 24pt;
     min-height: 23pt;
-    margin-right: 7px;
+    border-radius: 0px 0px 0px 15px;
 }
-
 
 tooltip {
-   background: @surface_container_highest;
+    background: @surface_container_highest;
     border: 1px solid @outline;
 }
+
 tooltip label {
-  color: @on_surface;
+    color: @on_surface;
 }
 
 #workspaces {
@@ -58,7 +53,6 @@ tooltip label {
     box-shadow: none;
 }
 
-/* Esta es la regla crucial que elimina el recuadro negro tras la fuente */
 #workspaces button label {
     background: transparent;
     background-color: transparent;
@@ -66,13 +60,11 @@ tooltip label {
 
 #workspaces button {
     padding: 0 5px;
-    margin: 0px 1px;
-    background: @surface_container;
-    color: @on_surface_variant;
-    border: 1px solid @outline;
-    border-radius: 10px;
-    min-width: 20px;
-    /* Aseguramos que el botón no tenga sombras raras */
+    margin: 3px 3px 3px 3px;
+    background: @secondary_container;
+    color: @on_secondary_container;
+    border-radius: 15px 5px 15px 5px;
+    min-width: 25px;
     box-shadow: none;
     text-shadow: none;
 }
@@ -80,17 +72,17 @@ tooltip label {
 #workspaces button.active {
     min-width: 30px;
     transition: all 500ms ease-in-out;
-    padding: 0 5px;
-    margin: 0px 1px;
+    margin: 3px 3px 3px 3px;
     background: @primary;
     color: @on_primary;
     border: 1px solid @primary;
     font-size: 12pt;
-    border-radius: 10px;
+    border-radius: 15px 5px 15px 5px;
 }
 
 #workspaces button.focused {
     background: @secondary;
+    color: @on_secondary;
     border: 1px solid @secondary;
     border-bottom: 0px solid #7ee5e8;
     font-size: 12pt;
@@ -107,25 +99,30 @@ tooltip label {
     box-shadow: none;
     background: none;
 }
+
 #backlight-slider trough {
     min-height: 10px;
     min-width: 80px;
     border-radius: 5px;
-    background: @on_surface;
+    background: @surface_container_highest;
 }
+
 #backlight-slider highlight {
     min-width: 7px;
     border-radius: 5px;
     background: @primary;
-    
 }
+
 #clock {
     font-size: 12pt;
-    padding: 0 10px;         
-    background:@primary;
+    padding: 0 10px;
+    background: @primary;
     color: @on_primary;
-    border-radius: 12px;  
+    border-radius: 0px 0px 15px 15px;
+    /* Esquinas inferiores redondeadas */
+    margin: 0px;
 }
+
 #battery {
     font-size: 12pt;
     background-color: transparent;
@@ -149,34 +146,27 @@ tooltip label {
     background-color: transparent;
     color: @on_surface;
 }
-
-#custom-player {
-    background: @surface_container;
-    color: @on_surface_variant;
-    padding: 0 10px;
+#cava {
     font-size: 12pt;
-    min-width: 11px;
-    border: 1px solid @outline;
-    border-radius: 12px;
+    background-color: transparent;
+    color: @on_surface;
     margin-left: 10px;
 }
 
 #custom-power {
     font-size: 12pt;
-    background-color: transparent;
-    color: @on_surface;
+    background: @error_container;
+    color: @on_error_container;
+    border-radius: 5px 0px 0px 15px;
 }
 
-menu {
-    background: @surface_container;
-    color: @on_surface_variant;
-    padding: 0 10px;
-    font-size: 12pt;
-    min-width: 11px;
-    border: 1px solid @outline;
-    border-radius: 12px;
-    margin-left: 10px;
-}
-menuitem {
-    border-radius: 15px;
+#image {
+    padding: 0 5px;
+    margin: 0px 5px;
+    background: @primary;
+    border-radius: 15px 5px 15px 5px;
+    margin-right: 10px;
+    margin-left: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }

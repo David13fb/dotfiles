@@ -3,13 +3,13 @@
 }
 
 window {
-    background-color: rgba(15, 20, 23, 0.65);
+    background-color: rgba(19, 19, 24, 0.65);
 }
 
 /* Estilo general de los botones forzando forma cuadrada */
 button {
-    background-color: #1b2023;
-    color: #dfe3e7;
+    background-color: #201f25;
+    color: #e5e1e9;
     border-radius: 20px;
     
     /* Forza el tamaño cuadrado idéntico */
@@ -24,8 +24,8 @@ button {
 }
 
 button:hover {
-    background-color: #8ccff0;
-    color: #003547;
+    background-color: #c6bfff;
+    color: #2e295f;
 }
 
 /* Iconos */

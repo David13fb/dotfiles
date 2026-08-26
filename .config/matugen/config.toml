@@ -30,6 +30,10 @@ output_path = '/home/david/Documentos/matugen.css'
 input_path = '/home/david/.config/matugen/templates/gtk-colors.css'
 output_path = '/home/david/.config/gtk-3.0/colors.css'
 
+[templates.quickshell]
+input_path = '/home/david/dotfiles/.config/matugen/templates/colors.json'
+output_path = '~/.config/quickshell/generated/colors.json'
+
 [templates.gtk4]
 input_path = '/home/david/.config/matugen/templates/gtk-colors.css'
 output_path = '/home/david/.config/gtk-4.0/colors.css'

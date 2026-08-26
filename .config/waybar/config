@@ -1,13 +1,11 @@
 [
-    // --- MONITOR PRINCIPAL ---
     {
-        "output": "eDP-1", // Reemplaza con el nombre de tu pantalla principal (ej. eDP-1)
+        "output": "eDP-1",
         "layer": "top",
-        "margin-top": 7,
+        "margin-top": 0,
         "height": 17,
         "modules-left": [
-            "hyprland/workspaces",
-            "custom/player"
+            "hyprland/workspaces"
         ],
         "modules-center": [
             "clock"
@@ -68,7 +66,7 @@
         },
         "pulseaudio": {
             "format": " {icon} {volume}% ",
-            "format-bluetooth": " {icon} {volume}% ",
+            "format-bluetooth": "  {volume}% ",
             "format-muted": "  ",
             "format-icons": {
                 "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
@@ -92,27 +90,52 @@
             ]
         },
         "network": {
-            "interface": "wlo1",
+            "interface": "wlp2s0",
             "format": "{ifname}",
-            "format-wifi": " ",
-            "format-ethernet": "  ",
-            "format-disconnected": "disc",
-            "tooltip-format": "  ",
-            "tooltip-format-wifi": " ",
-            "tooltip-format-ethernet": "",
-            "tooltip-format-disconnected": "disc",
+            "format-wifi": "{essid} ({signalStrength}%) ",
+            "format-ethernet": "{ifname} ",
+            "format-disconnected": "",
+            "format-disconnected": "",
+            "tooltip-format": "{ifname}",
+            "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+            "tooltip-format-ethernet": "{ifname} ",
+            "tooltip-format-disconnected": "Disconnected",
             "max-length": 50
-        },
-        "custom/player": {
-            "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
-            "max-length": 30,
-            "escape": true,
-            "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
         },
         "custom/power": {
             "format": " ⏻",
             "tooltip": false,
             "on-click": "wlogout -b 4 -l /home/david/.config/wlogout/layout -C /home/david/.config/wlogout/style.css"
+        },
+        "cava": {
+            "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+            "framerate": 30,
+            "autosens": 1,
+            "sensitivity": 100,
+            "bars": 14,
+            "lower_cutoff_freq": 50,
+            "higher_cutoff_freq": 10000,
+            "method": "pulse",
+            "source": "auto",
+            "stereo": true,
+            "reverse": false,
+            "monstercat": false,
+            "waves": false,
+            "noise_reduction": 0.77,
+            "input_delay": 2,
+            "format-icons": [
+                "▁",
+                "▂",
+                "▃",
+                "▄",
+                "▅",
+                "▆",
+                "▇",
+                "█"
+            ],
+            "actions": {
+                "on-click-right": "mode"
+            }
         },
         "hyprland/workspaces": {
             "format": "{name}",
@@ -131,18 +154,17 @@
             }
         }
     },
-    // --- SEGUNDO MONITOR (SIN BARRA DE LUZ) ---
     {
         "output": [
             "DP-1",
             "HDMI-A-1"
-        ], // Reemplaza con el nombre de tu segundo monitor
+        ],
         "layer": "top",
-        "margin-top": 7,
+        "margin-top": 0,
         "height": 17,
         "modules-left": [
-            "hyprland/workspaces",
-            "custom/player"
+            "image",
+            "hyprland/workspaces"
         ],
         "modules-center": [
             "clock"
@@ -165,7 +187,7 @@
         },
         "pulseaudio": {
             "format": " {icon} {volume}% ",
-            "format-bluetooth": " {icon} {volume}% ",
+            "format-bluetooth": "  {volume}% ",
             "format-muted": "  ",
             "format-icons": {
                 "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
@@ -188,29 +210,48 @@
                 "Easy Effects Sink"
             ]
         },
-        "custom/player": {
-            "exec": "/home/david/dotfiles/.config/waybar/customModules/player.sh",
-            "max-length": 30,
-            "escape": true,
-            "on-click": "flatpak run com.mastermindzh.tidal-hifi --show"
-        },
         "network": {
-            "interface": "wlo1",
+            "interface": "wlp2s0",
             "format": "{ifname}",
-            "format-wifi": " ",
-            "format-ethernet": "  ",
-            "format-disconnected": "disc",
-            "tooltip-format": "  ",
-            "tooltip-format-wifi": " ",
-            "tooltip-format-ethernet": "",
-            "tooltip-format-disconnected": "disc",
+            "format-wifi": "{essid} ({signalStrength}%) ",
+            "format-ethernet": "{ifname} ",
+            "format-disconnected": "",
+            "format-disconnected": " ",
+            "tooltip-format": "{ifname} ",
+            "tooltip-format-wifi": "{essid} ({signalStrength}%)  ",
+            "tooltip-format-ethernet": "{ifname}  ",
+            "tooltip-format-disconnected": "Disconnected ",
             "max-length": 50
         },
+        "image": {
+            "path": "~/dotfiles/fedora.ico",
+            "size": 32,
+            "interval": 5,
+            "on-click": "wofi --show drun"
+        },
         "custom/power": {
-            "format": " ⏻",
+            "format": " ⏻ ",
             "tooltip": false,
             "on-click": "wlogout -b 4 -l /home/david/.config/wlogout/layout -C /home/david/.config/wlogout/style.css"
         },
+        "cava": {
+            "cava_config": "/home/david/dotfiles/.config/cava/waybar.conf",
+            "stereo": true,
+            "format-icons": [
+                " ",
+                "▂",
+                "▃",
+                "▄",
+                "▅",
+                "▆",
+                "▇",
+                "█"
+            ],
+            "actions": {
+                "on-click-right": "mode"
+            }
+        },
+
         "hyprland/workspaces": {
             "format": "{name}",
             "format-icons": {
