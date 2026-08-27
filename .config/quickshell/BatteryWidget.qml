@@ -5,12 +5,18 @@ import Quickshell.Io
 Rectangle {
   id: batteryContainer
 
-  width: batteryLayout.implicitWidth + 24
-  height: 30
+  // Detectamos si la batería existe en el sistema operativo
+  property bool hasBattery: capacityFile.exists
+
+  // Si no hay batería, colapsamos el tamaño a 0 para que no ocupe espacio
+  width: hasBattery ? (batteryLayout.implicitWidth + 24) : 0
+  height: hasBattery ? 30 : 0
+  visible: hasBattery // Oculta el componente visualmente
+
   radius: 20
-  color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_variant !== "transparent") 
-         ? Colors.md3.surface_variant 
-         : "#45475a"
+  color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_variant !== "transparent")
+          ? Colors.md3.surface_variant
+          : "#45475a"
 
   property int currentPercentage: 0
   property string currentStatus: "Discharging"
@@ -41,11 +47,11 @@ Rectangle {
     }
   }
 
-  // SOLUCIÓN: Temporizador para forzar el refresco de sysfs de forma periódica
+  // Temporizador: Solo se activa e inicia si detecta una batería
   Timer {
     id: sysfsPoller
-    interval: 50000 // Refresca cada 10 segundos (ajustable)
-    running: true
+    interval: 50000 
+    running: batteryContainer.hasBattery
     repeat: true
     triggeredOnStart: true
     onTriggered: {
@@ -55,14 +61,19 @@ Rectangle {
   }
 
   Component.onCompleted: {
-    capacityFile.reload();
-    statusFile.reload();
+    // Solo intentamos recargar si el archivo realmente existe
+    if (batteryContainer.hasBattery) {
+      capacityFile.reload();
+      statusFile.reload();
+    }
   }
 
   Row {
     id: batteryLayout
     anchors.centerIn: parent
     spacing: 6
+    // Solo renderiza los elementos internos si hay batería
+    visible: batteryContainer.hasBattery
 
     // ICONO DINÁMICO
     Text {
