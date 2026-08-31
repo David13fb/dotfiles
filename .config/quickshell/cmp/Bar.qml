@@ -2,6 +2,7 @@
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
+import Quickshell.Hyprland
 import "../srv"
 
 Scope {
@@ -29,6 +30,20 @@ Scope {
 
             implicitHeight: 30
 
+            GlobalShortcut {
+                name: "toggle_control_center" // El nombre identificador para Hyprland
+
+                onPressed: {
+                    controlCenterMenu.isOpen = !controlCenterMenu.isOpen;
+                }
+            }
+            property bool wallpaperMode: false
+
+            GlobalShortcut {
+                name: "toggle_wallpapers"
+                onPressed: wallpaperMode = !wallpaperMode
+            }
+
             // 3. FONDO FLOTANTE: Contenedor con esquinas redondeadas y color de Matugen
             color: "transparent" // Hacemos la ventana transparente para que el Rectangle defina la forma
 
@@ -49,7 +64,7 @@ Scope {
                     ///left modules
                     ///########
                     // Workspaces alineados a la izquierda
-                    
+
                     Workspaces {
                         anchors.verticalCenter: parent.verticalCenter
                         anchors.left: parent.left
@@ -58,24 +73,15 @@ Scope {
                     ///########
                     ///Center modules
                     ///########
-                    // Reloj alineado al centro exacto
-                    ///########
-                    ///Center modules
-                    ///########
-
                     Rectangle {
                         anchors.centerIn: parent
-                        
-                        // Dimensiones automáticas basadas en los widgets de adentro + un margen extra
-                        width: centerLayout.implicitWidth + (MediaWidget.visible ? 30 : 0) // Ajuste dinámico de padding
+                        width: centerLayout.implicitWidth
                         height: 30
                         radius: 12
 
-                        color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_variant !== "transparent") 
-                               ? Colors.md3.surface_variant 
-                               : "#45475a"
+                        // Usamos tu formato original con "Colors" directo
+                        color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_variant !== "transparent") ? Colors.md3.surface_variant : "#45475a"
 
-                        // ANIMACIÓN ELASTICA: Hace que el contenedor cambie de tamaño suavemente
                         Behavior on width {
                             NumberAnimation {
                                 duration: 250
@@ -83,24 +89,20 @@ Scope {
                             }
                         }
 
-                        // El layout ahora va dentro del Rectangle de manera segura
                         RowLayout {
                             id: centerLayout
                             anchors.centerIn: parent
-                            spacing: MediaWidget.visible ? 8 : 0 // Spacing dinámico para que no deje un hueco vacío
+                            spacing: 8
 
                             ClockWidget {
                                 Layout.alignment: Qt.AlignVCenter
                             }
-                            
-                           
                             MediaWidget {
                                 Layout.alignment: Qt.AlignVCenter
                             }
                         }
                     }
 
- 
                     ///########
                     ///Right modules
                     ///########
@@ -112,12 +114,11 @@ Scope {
 
                         // monitor de audio
                         AudioWidget {}
-                        
+
                         // Monitor de Wi-Fi
                         WifiWidget {}
 
-                        BatteryWidget{
-                        }
+                        BatteryWidget {}
                         Rectangle {
                             id: controlCenterButton
                             implicitWidth: 32
@@ -148,6 +149,16 @@ Scope {
                     }
                     ControlCenter {
                         id: controlCenterMenu
+                    }
+                    WallpaperWidget {
+                        id: wallpaperPopup
+                    }
+
+                    
+                    HyprlandFocusGrab {
+                        
+                        active: topBar.wallpaperMode
+                        windows: [wallpaperPopup]
                     }
                 }
             }
