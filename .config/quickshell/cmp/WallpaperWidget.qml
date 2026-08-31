@@ -8,13 +8,19 @@ import Quickshell.Widgets
 import "../srv"
 
 PopupWindow {
-    id: wallpaperPopup
-
+    id: wallpaperPopup 
+    // Mantiene la visibilidad vinculada a la topBar del archivo principal
     visible: typeof topBar !== "undefined" && topBar.wallpaperMode
-
+    
+    // 1. Seguimos usando topBar como ventana de referencia
     anchor.window: topBar
-    anchor.rect.x: (topBar.width / 2) - (implicitWidth / 2)
-    anchor.rect.y: topBar.height + 8
+    
+    // 2. Centramos usando el ancho real del monitor (screen.width)
+    anchor.rect.x: (topBar.screen.width / 2) - (implicitWidth / 2)
+    
+    // 3. Lo posicionamos abajo usando la altura total del monitor (screen.height)
+    // El "topBar.margins.top" compensa el margen que tiene tu barra flotante si fuera necesario
+    anchor.rect.y: topBar.screen.height - implicitHeight - 20 
 
     implicitWidth: 700
     implicitHeight: 150
@@ -32,7 +38,7 @@ PopupWindow {
         radius: 16
         color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface !== "transparent") ? Colors.md3.surface : "#1e1e2e"
 
-        transformOrigin: Item.Top
+        transformOrigin: Item.Bottom
         scale: (typeof topBar !== "undefined" && topBar.wallpaperMode) ? 1.0 : 0.0
         opacity: (typeof topBar !== "undefined" && topBar.wallpaperMode) ? 1.0 : 0.0
 
@@ -89,6 +95,8 @@ PopupWindow {
             id: horizontalList
             anchors.fill: parent
             anchors.margins: 10
+            anchors.leftMargin: 20
+            anchors.rightMargin: 20
             model: wpModelInstance
             orientation: ListView.Horizontal
             spacing: 20
