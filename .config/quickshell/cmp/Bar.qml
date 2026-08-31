@@ -92,7 +92,7 @@ Scope {
                         RowLayout {
                             id: centerLayout
                             anchors.centerIn: parent
-                            spacing: 8
+                            spacing: 0
 
                             ClockWidget {
                                 Layout.alignment: Qt.AlignVCenter

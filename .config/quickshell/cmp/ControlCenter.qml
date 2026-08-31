@@ -83,7 +83,7 @@ PopupWindow {
     Rectangle {
         id: ccContainer
         anchors.fill: parent
-        radius: 24
+        radius: 15
         color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_container !== "transparent") ? Colors.md3.surface_container : "#1d2024"
         border.width: 1
         border.color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.outline_variant !== "transparent") ? Colors.md3.outline_variant : "#42474e"
