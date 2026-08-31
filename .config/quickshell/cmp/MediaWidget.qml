@@ -2,6 +2,7 @@
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
+import "../srv"
 
 RowLayout {
     id: integratedMedia
@@ -46,7 +47,6 @@ RowLayout {
                             to: -(titleText.implicitWidth - titleContainer.width + 15)
                             duration: Math.max(3000, titleText.implicitWidth * 30) 
                             loops: Animation.Infinite
-                            // 🔥 CORREGIDO: Ahora solo depende de si el texto es largo, ignorando si está pausado
                             running: titleText.isTooLong 
                             easing.type: Easing.Linear
                         }

@@ -138,6 +138,13 @@ Singleton {
         }
     }
 
+    function getArtUrl() {
+        if (activePlayer && activePlayer.trackArtUrl) {
+            return activePlayer.trackArtUrl;
+        }
+        // Retorna un fallback local si no hay miniatura o reproductor activo
+        return "rc/default_cover.png"; 
+    }
 
     Process {
         id: ctrlProc

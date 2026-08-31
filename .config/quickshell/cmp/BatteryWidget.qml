@@ -1,6 +1,7 @@
 import QtQuick
 import Quickshell
 import Quickshell.Io
+import "../srv"
 
 Rectangle {
   id: batteryContainer

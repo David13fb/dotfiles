@@ -1,30 +1,30 @@
 /* Generado con Matugen */
-@define-color accent_color #dabaf9;
-@define-color accent_fg_color #270d43;
-@define-color accent_bg_color #dabaf9;
-@define-color window_bg_color #151218;
+@define-color accent_color #dcb9f8;
+@define-color accent_fg_color #290c41;
+@define-color accent_bg_color #dcb9f8;
+@define-color window_bg_color #151217;
 @define-color window_fg_color #e8e0e8;
-@define-color headerbar_bg_color #151218;
+@define-color headerbar_bg_color #151217;
 @define-color headerbar_fg_color #e8e0e8;
-@define-color sidebar_bg_color #151218;
+@define-color sidebar_bg_color #151217;
 @define-color sidebar_fg_color #e8e0e8;
-@define-color theme_bg_color #151218;
+@define-color theme_bg_color #151217;
 @define-color theme_fg_color #e8e0e8;
-@define-color theme_base_color #151218;
+@define-color theme_base_color #151217;
 @define-color theme_text_color #e8e0e8;
-@define-color theme_selected_bg_color #dabaf9;
-@define-color theme_selected_fg_color #270d43;
+@define-color theme_selected_bg_color #dcb9f8;
+@define-color theme_selected_fg_color #290c41;
 /* Fondos principales de ventana y diálogos */
-@define-color window_bg_color #151218;
-@define-color theme_bg_color #151218;
+@define-color window_bg_color #151217;
+@define-color theme_bg_color #151217;
 
 /* Fondos de áreas de contenido (listas, editores, iconos) */
-@define-color view_bg_color #151218;
-@define-color theme_base_color #151218;
+@define-color view_bg_color #151217;
+@define-color theme_base_color #151217;
 
 /* Fondos de barras de herramientas y cabeceras */
-@define-color headerbar_bg_color #151218;
+@define-color headerbar_bg_color #151217;
 
 /* Forzado para aplicaciones que usan selectores CSS antiguos */
-@define-color bg_color #151218;
-@define-color base_color #151218;
+@define-color bg_color #151217;
+@define-color base_color #151217;

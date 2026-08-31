@@ -3,7 +3,7 @@
 }
 
 window {
-    background-color: rgba(21, 18, 24, 0.65);
+    background-color: rgba(21, 18, 23, 0.65);
 }
 
 /* Estilo general de los botones forzando forma cuadrada */
@@ -24,8 +24,8 @@ button {
 }
 
 button:hover {
-    background-color: #dabaf9;
-    color: #3d2459;
+    background-color: #dcb9f8;
+    color: #3f2358;
 }
 
 /* Iconos */

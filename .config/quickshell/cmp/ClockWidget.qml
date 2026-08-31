@@ -1,5 +1,6 @@
 // ClockWidget.qml
 import QtQuick
+import "../srv"
 
 Rectangle {
   id: clockContainer

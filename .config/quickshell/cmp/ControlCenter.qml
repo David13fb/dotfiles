@@ -4,6 +4,8 @@ import QtQuick.Layouts
 import QtQuick.Controls
 import Quickshell
 import Quickshell.Io
+import Quickshell.Widgets 
+import "../srv"
 
 PopupWindow {
     id: controlCenter
@@ -35,17 +37,13 @@ PopupWindow {
 
     Process {
         id: systemPoweroff
-        command: ["wlogout", 
-        "-b", "4", 
-        "-l", "/home/david/.config/wlogout/layout", 
-        "-C", "/home/david/.config/wlogout/style.css"]
+        command: ["wlogout", "-b", "4", "-l", "/home/david/.config/wlogout/layout", "-C", "/home/david/.config/wlogout/style.css"]
     }
-    
- Process {
+
+    Process {
         id: brightnessProc
         command: ["brightnessctl", "set", Math.max(5, Math.round(brightnessSlider.value * 100)) + "%"]
     }
-
 
     FileView {
         id: currentBrightnessFile
@@ -163,7 +161,7 @@ PopupWindow {
                             cursorShape: Qt.PointingHandCursor
                             onClicked: {
                                 // Ejecuta el apagado del sistema en Fedora
-                                systemPoweroff.running = true; 
+                                systemPoweroff.running = true;
                             }
                         }
                     }
@@ -256,7 +254,7 @@ PopupWindow {
                             anchors.fill: parent
                             cursorShape: Qt.PointingHandCursor
                             acceptedButtons: Qt.LeftButton | Qt.RightButton
-                            onClicked: (mouse) => {
+                            onClicked: mouse => {
                                 if (mouse.button === Qt.LeftButton) {
                                     controlCenter.isBluetoothActive = !controlCenter.isBluetoothActive;
                                     toggleBluetooth.running = true;
@@ -272,7 +270,7 @@ PopupWindow {
                 // SLIDERS: VOLUMEN Y BRILLO
                 // ==========================================
                 // ==========================================
-                
+
                 ColumnLayout {
                     Layout.fillWidth: true
                     spacing: 12
@@ -329,7 +327,7 @@ PopupWindow {
                         }
                     }
 
-                                        // CONTROL BRILLO NATIVO
+                    // CONTROL BRILLO NATIVO
                     RowLayout {
                         spacing: 10
                         Text {
@@ -346,7 +344,7 @@ PopupWindow {
                             // Ejecuta el comando en Fedora al arrastrar
                             onMoved: {
                                 let pct = Math.round(brightnessSlider.value * 100);
-                                brightnessProc.running = true
+                                brightnessProc.running = true;
                             }
 
                             background: Rectangle {
@@ -377,15 +375,12 @@ PopupWindow {
                             }
                         }
                     }
-
                 }
-
 
                 // ==========================================
                 // REPRODUCTOR MULTIMEDIA (MEDIA PLAYER)
                 // ==========================================
 
-                // Reemplaza el bloque del REPRODUCTOR MULTIMEDIA en tu ControlCenter.qml por este:
                 Rectangle {
                     Layout.fillWidth: true
                     height: 80
@@ -400,19 +395,25 @@ PopupWindow {
                         spacing: 12
 
                         // Miniatura / Caja de Portada dinámica
-                        Rectangle {
+                        ClippingRectangle {
                             width: 56
                             height: 56
                             radius: 8
-                            // Cambia sutilmente de color si está reproduciendo música o no
-                            color: MediaService.playbackStatus === "Playing" ? Colors.md3.primary : Colors.md3.surface_variant
+                            clip: true
+                            Image {
+                                id: albumArt
+                                anchors.fill: parent
+                                fillMode: Image.PreserveAspectCrop
+                                asynchronous: true
 
-                            Text {
-                                anchors.centerIn: parent
-                                text: " " // Icono de nota musical de Nerd Fonts
-                                font.family: "JetBrainsMono Nerd Font"
-                                font.pixelSize: 20
-                                color: MediaService.playbackStatus === "Playing" ? Colors.md3.on_primary : Colors.md3.on_surface_variant
+                                source: (MediaService.activePlayer, MediaService.getArtUrl())
+ 
+                                Connections {
+                                    target: MediaService.activePlayer
+                                    function onTrackArtUrlChanged() {
+                                        albumArt.source = MediaService.getArtUrl();
+                                    }
+                                }
                             }
                         }
 

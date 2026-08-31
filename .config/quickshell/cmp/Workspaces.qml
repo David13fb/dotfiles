@@ -2,17 +2,20 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Hyprland
+import Quickshell.Widgets
+import "../srv"
+
 
 Rectangle {
     id: backgroundContainer
     
     // Configuración del fondo del contenedor principal
     color: Colors.md3.surface !== "transparent" ? Colors.md3.surface : "#1e1e2e"
-    radius: 120
+    radius: 15
     
     // Ajusta el tamaño dinámicamente según el contenido del RowLayout más el padding
-    implicitWidth: workspacesBar.implicitWidth + 16 // 10 de padding por cada lado
-    implicitHeight: workspacesBar.implicitHeight + 16 // 8 de padding arriba y abajo
+    implicitWidth: workspacesBar.implicitWidth +16
+    implicitHeight: workspacesBar.implicitHeight +10
 
     RowLayout {
         id: workspacesBar
@@ -20,19 +23,19 @@ Rectangle {
         
         // Centramos el RowLayout dentro del fondo contenedor
         anchors.centerIn: parent
-
+    
         Repeater {
             model: Hyprland.workspaces
-
+            
             delegate: Rectangle {
                 required property var modelData
-
+                
                 readonly property int workspaceId: modelData.id
                 readonly property bool isFocused: Hyprland.focusedWorkspace === modelData
 
                 implicitWidth: isFocused ? 36 : 20
                 height: 20
-                radius: 10
+                radius: 30
 
                 color: {
                     if (isFocused) {
