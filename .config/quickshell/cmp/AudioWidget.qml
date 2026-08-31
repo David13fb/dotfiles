@@ -14,6 +14,9 @@ Rectangle {
 
     color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_variant !== "transparent") ? Colors.md3.surface_variant : "#42474e"
 
+    // Propiedad interna para controlar el estado real de apertura lógica del menú
+    property bool isOpen: false
+
     Text {
         anchors.centerIn: parent
         font.pixelSize: 14
@@ -39,7 +42,8 @@ Rectangle {
 
         onClicked: mouse => {
             if (mouse.button === Qt.LeftButton) {
-                audioMenu.visible = !audioMenu.visible;
+                // Modificamos nuestra propiedad lógica en lugar de la visibilidad directa de QuickShell
+                audioRoot.isOpen = !audioRoot.isOpen;
             } else if (mouse.button === Qt.RightButton) {
                 AudioService.openVolumeMixer();
             }
@@ -52,7 +56,8 @@ Rectangle {
 
     PopupWindow {
         id: audioMenu
-        visible: false
+        // El popup maestro de QuickShell está activo si está abierto lógicamente O si la animación aún está corriendo
+        visible: audioRoot.isOpen || menuContainer.opacity > 0
         anchor.window: topBar
 
         anchor.rect: {
@@ -68,11 +73,30 @@ Rectangle {
         color: "transparent"
 
         Rectangle {
+            id: menuContainer
             anchors.fill: parent
             radius: 12
             color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_container !== "transparent") ? Colors.md3.surface_container : "#1d2024"
             border.width: 1
             border.color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.outline_variant !== "transparent") ? Colors.md3.outline_variant : "#42474e"
+
+            // Vinculamos de forma directa a la propiedad 'isOpen' que controla tu click del ratón
+            opacity: audioRoot.isOpen ? 1.0 : 0.0
+            scale: audioRoot.isOpen ? 1.0 : 0.85
+
+            Behavior on opacity {
+                NumberAnimation {
+                    duration: 150
+                    easing.type: Easing.OutQuad
+                }
+            }
+
+            Behavior on scale {
+                NumberAnimation {
+                    duration: 200
+                    easing.type: Easing.OutBack
+                }
+            }
 
             ColumnLayout {
                 anchors.fill: parent
@@ -184,69 +208,63 @@ Rectangle {
                                 }
 
                                 Slider {
-    id: appSlider
-    Layout.fillWidth: true
-    Layout.alignment: Qt.AlignVCenter
-    from: 0.0
-    to: 1.0
-    
-    // Propiedad interna para congelar la ID de la aplicación
-    property int appId: 0
-    
-    Component.onCompleted: {
-        appSlider.appId = modelData.id;
-        appSlider.value = modelData.volume;
-    }
+                                    id: appSlider
+                                    Layout.fillWidth: true
+                                    Layout.alignment: Qt.AlignVCenter
+                                    from: 0.0
+                                    to: 1.0
 
-    Connections {
-        target: AudioService
-        function onAppStreamsChanged() {
-            if (!appSlider.pressed) {
-                for (var i = 0; i < AudioService.appStreams.length; i++) {
-                    if (AudioService.appStreams[i].id === appSlider.appId) {
-                        appSlider.value = AudioService.appStreams[i].volume;
-                        break;
-                    }
-                }
-            }
-        }
-    }
+                                    property int appId: 0
 
-    onMoved: {
-        AudioService.setAppVolume(appSlider.appId, appSlider.value);
-    }
+                                    Component.onCompleted: {
+                                        appSlider.appId = modelData.id;
+                                        appSlider.value = modelData.volume;
+                                    }
 
-    // Estilo estético unificado con el Volumen General
-    background: Rectangle {
-        x: appSlider.leftPadding
-        y: appSlider.topPadding + appSlider.availableHeight / 2 - height / 2
-        implicitWidth: 200
-        implicitHeight: 4
-        width: appSlider.availableWidth
-        height: implicitHeight
-        radius: 2
-        color: (typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.surface_variant : "#45475a"
+                                    Connections {
+                                        target: AudioService
+                                        function onAppStreamsChanged() {
+                                            if (!appSlider.pressed) {
+                                                for (var i = 0; i < AudioService.appStreams.length; i++) {
+                                                    if (AudioService.appStreams[i].id === appSlider.appId) {
+                                                        appSlider.value = AudioService.appStreams[i].volume;
+                                                        break;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
 
-        Rectangle {
-            width: appSlider.visualPosition * parent.width
-            height: parent.height
-            color: (typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.primary : "#9fcafc"
-            radius: 2
-        }
-    }
-
-    handle: Rectangle {
-        x: appSlider.leftPadding + appSlider.visualPosition * (appSlider.availableWidth - width)
-        y: appSlider.topPadding + appSlider.availableHeight / 2 - height / 2
-        implicitWidth: 12
-        implicitHeight: 12
-        radius: 6
-        color: appSlider.pressed ? ((typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.primary : "#9fcafc") : ((typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.on_primary_container : "#00325b")
-        border.color: (typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.primary : "#9fcafc"
-        border.width: 1
-    }
-}
-
+                                    onMoved: {
+                                        AudioService.setAppVolume(appSlider.appId, appSlider.value);
+                                    }
+                                    background: Rectangle {
+                                        x: appSlider.leftPadding
+                                        y: appSlider.topPadding + appSlider.availableHeight / 2 - height / 2
+                                        implicitWidth: 200
+                                        implicitHeight: 4
+                                        width: appSlider.availableWidth
+                                        height: implicitHeight
+                                        radius: 2
+                                        color: (typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.surface_variant : "#45475a"
+                                        Rectangle {
+                                            width: appSlider.visualPosition * parent.width
+                                            height: parent.height
+                                            color: (typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.primary : "#9fcafc"
+                                            radius: 2
+                                        }
+                                    }
+                                    handle: Rectangle {
+                                        x: appSlider.leftPadding + appSlider.visualPosition * (appSlider.availableWidth - width)
+                                        y: appSlider.topPadding + appSlider.availableHeight / 2 - height / 2
+                                        implicitWidth: 12
+                                        implicitHeight: 12
+                                        radius: 6
+                                        color: appSlider.pressed ? ((typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.primary : "#9fcafc") : ((typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.on_primary_container : "#00325b")
+                                        border.color: (typeof Colors !== "undefined" && Colors.md3) ? Colors.md3.primary : "#9fcafc"
+                                        border.width: 1
+                                    }
+                                }
                             }
                         }
                     }
