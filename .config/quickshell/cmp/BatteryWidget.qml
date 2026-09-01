@@ -1,19 +1,20 @@
 import QtQuick
 import Quickshell
 import Quickshell.Io
+import QtQuick.Layouts
 import "../srv"
 
 Rectangle {
   id: batteryContainer
 
-  // Detectamos si la batería existe en el sistema operativo
-  property bool hasBattery: capacityFile.exists
+  // Inicializamos asumiendo falso hasta comprobar el archivo real
+  property bool hasBattery: false
+Layout.preferredWidth: hasBattery ? (batteryLayout.implicitWidth + 16) : 0 
+  Layout.preferredHeight: 30
+  Layout.fillWidth: false
+  visible: hasBattery 
 
-  // Si no hay batería, colapsamos el tamaño a 0 para que no ocupe espacio
-  width: hasBattery ? (batteryLayout.implicitWidth + 24) : 0
-  height: hasBattery ? 30 : 0
-  visible: hasBattery // Oculta el componente visualmente
-
+  // Quitamos los anclajes antiguos de width y height fijos que rompen el RowLayout
   radius: 20
   color: (typeof Colors !== "undefined" && Colors.md3 && Colors.md3.surface_variant !== "transparent")
           ? Colors.md3.surface_variant
@@ -22,7 +23,6 @@ Rectangle {
   property int currentPercentage: 0
   property string currentStatus: "Discharging"
 
-  // Lector nativo del archivo de capacidad del Kernel (BAT1)
   FileView {
     id: capacityFile
     path: "/sys/class/power_supply/BAT1/capacity"
@@ -31,11 +31,15 @@ Rectangle {
       let content = capacityFile.text().trim();
       if (content) {
         batteryContainer.currentPercentage = parseInt(content);
+        // Si el archivo responde con datos correctos, confirmamos que la batería existe
+        if (!batteryContainer.hasBattery) {
+          batteryContainer.hasBattery = true;
+          sysfsPoller.start();
+        }
       }
     }
   }
 
-  // Lector nativo del archivo de estado de carga (BAT1)
   FileView {
     id: statusFile
     path: "/sys/class/power_supply/BAT1/status"
@@ -48,13 +52,11 @@ Rectangle {
     }
   }
 
-  // Temporizador: Solo se activa e inicia si detecta una batería
   Timer {
     id: sysfsPoller
-    interval: 50000 
-    running: batteryContainer.hasBattery
+    interval: 50000
     repeat: true
-    triggeredOnStart: true
+    triggeredOnStart: false // Lo controlamos de manera manual tras la primera lectura exitosa
     onTriggered: {
       capacityFile.reload();
       statusFile.reload();
@@ -62,21 +64,17 @@ Rectangle {
   }
 
   Component.onCompleted: {
-    // Solo intentamos recargar si el archivo realmente existe
-    if (batteryContainer.hasBattery) {
-      capacityFile.reload();
-      statusFile.reload();
-    }
+    // Forzamos la lectura inicial. Si el archivo existe en el sistema, disparará 'onDataChanged'
+    capacityFile.reload();
+    statusFile.reload();
   }
 
   Row {
     id: batteryLayout
     anchors.centerIn: parent
     spacing: 6
-    // Solo renderiza los elementos internos si hay batería
     visible: batteryContainer.hasBattery
 
-    // ICONO DINÁMICO
     Text {
       id: batteryIcon
       font.family: "JetBrainsMono Nerd Font"
@@ -84,13 +82,13 @@ Rectangle {
       font.bold: true
 
       color: batteryContainer.currentStatus === "Charging"
-             ? "#a6e3a1" 
+             ? "#a6e3a1"
              : (batteryContainer.currentPercentage < 20 ? "#f38ba8" : fallbackColor.color)
 
       text: {
         if (batteryContainer.currentPercentage === 0) return "\uf244! "
         if (batteryContainer.currentStatus === "Charging") return "\uf240 \udb85\udc0b"
-        
+                 
         let pct = batteryContainer.currentPercentage
         if (pct >= 90) return "\uf240"
         if (pct >= 70) return "\uf241"
@@ -101,7 +99,6 @@ Rectangle {
       }
     }
 
-    // TEXTO DEL PORCENTAJE
     Text {
       id: batteryText
       font.family: "JetBrainsMono Nerd Font"

@@ -127,7 +127,7 @@ PopupWindow {
                 height: 125 // Fijamos la altura máxima aquí para evitar saltos verticales bruscos
 
                 // Alineación vertical perfecta respecto al centro de la lista
-                anchors.verticalCenter: parent.verticalCenter
+
                 ClippingRectangle {
                     anchors.centerIn: parent
                     width: wrapperItem.isCentered ? 150 : 125
